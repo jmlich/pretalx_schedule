@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import config
 import sys
 import locale
 import json
@@ -13,17 +14,15 @@ locale.setlocale(locale.LC_TIME, 'cs_CZ.UTF-8')
 
 class ScheduleApp:
 
-    CONF_SLUG = "openalt-2024"
-    AUTHORIZATION = "Token 7711dade56ebd69ccc83fb9af052fc753759b74f"
-    JSON_FILE = f"{CONF_SLUG}_sessions.json"
-    API_URL = f"https://talks.openalt.cz/api/events/{CONF_SLUG}/talks/?limit=1000"
-
-    ROOM_ORDER = ['D105', 'D0206', 'D0207', 'A112', 'A113' ]  # Define your rooms in the desired order here
     TIMESLOT = 5
 
     def __init__(self):
-        self.sessions = self.load_or_download_json()
+        self.AUTHORIZATION = config.AUTHORIZATION
+        self.JSON_FILE = config.JSON_FILE
+        self.API_URL = config.API_URL
+        self.ROOM_ORDER = config.ROOM_ORDER
 
+        self.sessions = self.load_or_download_json()
 
     def load_or_download_json(self) -> list:
         """Loads JSON data from a file if it exists; otherwise, downloads it."""
@@ -95,7 +94,21 @@ class ScheduleApp:
         while current_time < max_time:
             time_str = current_time.strftime("%H:%M")
             html += f'<tr>'
-            html += f'<td rowspan="1">{time_str}</td>'
+
+#            html += f'<td rowspan="1">{time_str}</td>'
+            if current_time.minute == 0:
+                rowspan = 60 // self.TIMESLOT
+                next_hour = (current_time + timedelta(minutes=60)).strftime("%H:%M")
+                html += f'<td rowspan="{rowspan}">{time_str} &mdash; {next_hour} </td>'
+
+#            if currnet_time 
+#            if current_time in times:
+#                next_time = next((t for t in times if t > current_time), max_time)
+#                duration = (next_time - current_time).total_seconds() // 60 
+#                rowspan = duration // self.TIMESLOT
+#                next_time_str = next_time.strftime("%H:%M")
+##                html += f'<td rowspan="{rowspan}">{time_str} &mdash; {next_time_str} </td>'
+#                html += f'<td rowspan="{rowspan}">{time_str} </td>'
 
             for room in self.ROOM_ORDER:
                 # Check if the room is occupied

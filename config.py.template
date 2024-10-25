@@ -1,0 +1,5 @@
+CONF_SLUG = "openalt-2024"
+AUTHORIZATION = "Token 77...secret...4f"
+JSON_FILE = f"{CONF_SLUG}_sessions.json"
+API_URL = f"https://talks.openalt.cz/api/events/{CONF_SLUG}/talks/?limit=1000"
+ROOM_ORDER = ['D105', 'D0206', 'D0207', 'A112', 'A113' ]  # Define your rooms in the desired order here
