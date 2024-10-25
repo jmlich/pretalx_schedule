@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse
+}
+
+.track16 {
+    color: #ffffff;
+    background-color: #10753F;
+}
+.track17 {
+    color: #ffffff;
+    background-color: #2F62AE;
+}
+.track18 {
+    color: #ffffff;
+    background-color: #BE1E2D;
+}
+.track19 {
+    color: #ffffff;
+    background-color: #57585A;
+}
+.track20 {
+    color: #ffffff;
+    background-color: #D37A6A;
+}
+.track21 {
+    color: #ffffff;
+    background-color: #92378b;
+}
+.track22 {
+    color: #ffffff;
+    background-color: #f57900;
+}
+.track23 {
+    color: #ffffff;
+    background-color: #133d69;
+}
+td {
+  padding: 6px 13px 6px 13px;
+}
