@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import sys
 import locale
 import json
 import os
@@ -67,13 +68,14 @@ class ScheduleApp:
 
 
         # Get all start and end times
-        start_times = {s['slot']['start'][11:16] for s in day_sessions}
-        end_times = {s['slot']['end'][11:16] for s in day_sessions}
+        start_times = {datetime.fromisoformat(s['slot']['start']) for s in day_sessions}
+        end_times = {datetime.fromisoformat(s['slot']['end']) for s in day_sessions}
         times = sorted(start_times | end_times)
 
         # Determine min and max time boundaries for the day's schedule
-        min_time = datetime.strptime(min(times), "%H:%M")
-        max_time = datetime.strptime(max(times), "%H:%M")
+
+        min_time = min(times)
+        max_time = max(times)
 
         rooms = {s['slot']['room']['en'] for s in day_sessions if 'room' in s['slot']}
 
@@ -89,7 +91,6 @@ class ScheduleApp:
         html = '<table border="1">\n'
         html += '<tr><th></th>' + ''.join(f'<th>{room}</th>' for room in self.ROOM_ORDER) + '</tr>\n'
 
-
         current_time = min_time
         while current_time < max_time:
             time_str = current_time.strftime("%H:%M")
@@ -101,11 +102,11 @@ class ScheduleApp:
 
                 if occupied[room] is None or occupied[room] <= current_time:
                     # Find a session that starts at this time in the current room
-                    session = next((s for s in day_sessions if s['slot']['start'][11:16] == time_str and s['slot']['room']['en'] == room), None)
+                    session = next((s for s in day_sessions if datetime.fromisoformat(s['slot']['start']) == current_time and s['slot']['room']['en'] == room), None)
 
                     if session:
                         # Calculate the end time of the session
-                        session_end = datetime.strptime(session['slot']['end'][11:16], "%H:%M")
+                        session_end = datetime.fromisoformat(session['slot']['end'])
                         duration = session.get('duration', 0)
                         rowspan = max(1, duration // self.TIMESLOT)
 
@@ -117,10 +118,10 @@ class ScheduleApp:
                     else:
                         # If no session, calculate rowspan for empty slots
                         next_session = next((s for s in day_sessions 
-                                         if s['slot']['room']['en'] == room 
-                                         and datetime.strptime(s['slot']['start'][11:16], "%H:%M") > current_time), None)
+                                         if s['slot']['room']['en'] == room
+                                         and datetime.fromisoformat(s['slot']['start']) > current_time), None)
                         if next_session:
-                            next_start_time = datetime.strptime(next_session['slot']['start'][11:16], "%H:%M")
+                            next_start_time = datetime.fromisoformat(next_session['slot']['start'])
                             empty_duration = (next_start_time - current_time).total_seconds() // 60
                             empty_rowspan = empty_duration // self.TIMESLOT
                             occupied[room] = current_time + timedelta(minutes=empty_duration)
