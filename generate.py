@@ -159,7 +159,8 @@ class ScheduleApp:
             session['track_id']
             speakers = ", ".join(sp.get('name', '') for sp in session.get('speakers', []))
 
-            display_text = f'<td rowspan="{rowspan}" class="track{session['track_id']}">{speakers + ': ' if speakers else ''}<span class="title">{session['title']}</span><br><span class="date">{start}-{end}</span></td>\n'
+#            display_text = f'<td rowspan="{rowspan}" class="track{session['track_id']}">{speakers + ': ' if speakers else ''}<span class="title">{session['title']}</span><br><span class="date">{start}-{end}</span></td>\n'
+            display_text = f'<td rowspan="{rowspan}" class="track{session['track_id']}">{speakers + ': ' if speakers else ''}<span class="title">{session['title']}</span></td>\n'
             return display_text
         else:
             # Return an empty cell for unoccupied time slots

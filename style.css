@@ -41,3 +41,20 @@ table {
 td {
   padding: 6px 13px 6px 13px;
 }
+
+.date {
+    font-family: sans-serif;
+      font-size: small;
+}
+
+/* Column widths */
+table th:first-child,
+table td:first-child {
+    width: 5%; /* Set first column width */
+}
+
+table th:not(:first-child),
+table td:not(:first-child) {
+    width: calc((100% - 5% )/ 5); /* Distributes remaining width equally among 5 columns */
+}
+
