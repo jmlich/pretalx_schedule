@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import csv
 import config
 import sys
 import locale
@@ -167,7 +168,44 @@ class ScheduleApp:
             return ''
 
 
+    def get_speaker_names(self) -> List[str]:
+        """Returns a list of all unique speaker names."""
+        names = set()
+        for session in self.sessions:
+            for speaker in session.get('speakers', []):
+                names.add(speaker.get('name', 'Unknown'))
+        return sorted(names)
+
+
+    def get_speaker_details(self) -> List[Dict[str, Any]]:
+        """Returns a list of dictionaries with speaker names, track names, and track IDs."""
+        speaker_details = []
+        unique_speakers = set()
+        for session in self.sessions:
+            track_id = session.get('track_id', '')
+            for speaker in session.get('speakers', []):
+                speaker_code = speaker.get('code')  # assuming each speaker has a unique code
+                if speaker_code and speaker_code not in unique_speakers:
+                    unique_speakers.add(speaker_code)
+                    speaker_name = speaker.get('name', '')
+                    speaker_details.append({
+                        'jmeno': speaker_name,
+                        'track': track_id,
+                        'firma': '',
+                        'funkce': 'Přednášející'
+                    })
+        return speaker_details
+
+
+    def export_speaker_details_to_csv(self, filename: str = 'prednasejici.csv'):
+        """Exports speaker details (name, track, track_id) to a CSV file."""
+        speaker_details = self.get_speaker_details()
+        with open(filename, mode='w', encoding='utf-8', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=['jmeno', 'funkce', 'firma', 'track'])
+            writer.writeheader()
+            writer.writerows(speaker_details)
 
 app = ScheduleApp()
 
 app.export_schedule()
+app.export_speaker_details_to_csv()
