@@ -1,8 +1,498 @@
 {
-    "count": 46,
+    "count": 52,
     "next": null,
     "previous": null,
     "results": [
+        {
+            "code": "PKVCLK",
+            "speakers": [
+                {
+                    "code": "WQHBZD",
+                    "name": "Tomas Vondra",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/1ddb2d847aa35b4edfc54bfd6f4dc306_sr6kv9x.jpg",
+                    "email": "tv@fuzzy.cz"
+                }
+            ],
+            "title": "What's new in PostgreSQL 17",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "PostgreSQL 17 is already out, released about a month ago, so let's quickly go through the improvements and changes in this major release. I'll talk about the main admin / developer changes, and things to be aware of.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "en",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-03T10:00:00+01:00",
+                "end": "2024-11-03T10:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-10T12:32:33.832991+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "7ENZA9",
+            "speakers": [
+                {
+                    "code": "WQHBZD",
+                    "name": "Tomas Vondra",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/1ddb2d847aa35b4edfc54bfd6f4dc306_sr6kv9x.jpg",
+                    "email": "tv@fuzzy.cz"
+                }
+            ],
+            "title": "Praktické základy vývoje PostgreSQL",
+            "submission_type": {
+                "cs": "Dlouhý workshop",
+                "en": "Long workshop"
+            },
+            "submission_type_id": 16,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Cílem workshopu je seznámení s technickými základy vývoje PostgreSQL. Během loňského workshopu jsem se soustředil spíše na organizační/procesní stránku, letos se zaměříme výrazně na technickou část, tj. základní strukturu zdrojáků (kde najít jaký modul, apod.). jak používat \"configure\", buildovat a pouštět různé testy, jak nastavit/používat CI na githubu, apod.",
+            "description": null,
+            "duration": 105,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 15,
+                "room": {
+                    "cs": "A112",
+                    "en": "A112"
+                },
+                "start": "2024-11-03T13:00:00+01:00",
+                "end": "2024-11-03T14:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-10T12:38:15.672294+02:00",
+            "pending_state": null,
+            "notes": "alternativně to můžu udělat v angličtině, nevím jaké je publikum",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "9FRSL9",
+            "speakers": [
+                {
+                    "code": "ACFT9V",
+                    "name": "Jiří Vlasák",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/me_E9qhjig.jpg",
+                    "email": "jiri.hubacek@gmail.com"
+                }
+            ],
+            "title": "Neprogramátor",
+            "submission_type": {
+                "cs": "Krátká přednáška",
+                "en": "Short talk"
+            },
+            "submission_type_id": 17,
+            "track": {
+                "en": "Vzdělávání"
+            },
+            "track_id": 18,
+            "state": "confirmed",
+            "abstract": "Myslím si, že Aaronova představa programování jako čarování je vlastně dost přesná. Čaroděj vytvoří kouzelnou větu v neznámém jazyce, neznámého významu, která se neznámo jak vykoná, aby nakonec dostal, co chtěl.\r\n\r\nNeprogramátor je (wiki)kniha pro ty, co chtějí vědět, cože to to programování vlastně je. Zároveň je i pro ty, co se chtějí naučit programovat, ale HTDP (https://htdp.org/) pro ně postupuje moc rychle.\r\n\r\nPřednáška je představení přístupu, kterým Neprogramátor vysvětluje programování. Důvod přednášky je zpětná vazba, která doufám pomůže odhlalit slabé stránky knihy.\r\n\r\n- https://cs.wikibooks.org/wiki/Neprogram%C3%A1tor\r\n- https://neprogramator.cz/",
+            "description": null,
+            "duration": 25,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-02T15:25:00+01:00",
+                "end": "2024-11-02T15:50:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-12T11:04:26.611494+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "DJTHHE",
+            "speakers": [
+                {
+                    "code": "QC9U9G",
+                    "name": "Tomáš Tichý",
+                    "biography": "Dlouholetý linuxák, milovních chameleonů, šotouš, fotograf, řiditel autobusu a jeho polovodič.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/Strana_1_GxZ7BK4.png",
+                    "email": "to@mail.marny.eu"
+                }
+            ],
+            "title": "VoD a další služby s IPv6 tunelem od HE",
+            "submission_type": {
+                "cs": "Krátká přednáška",
+                "en": "Short talk"
+            },
+            "submission_type_id": 17,
+            "track": {
+                "en": "Bezpečnost a soukromí"
+            },
+            "track_id": 19,
+            "state": "confirmed",
+            "abstract": "Pokud toužíte po IPv6 a váš poskytovatel ji nepodporuje, je jedna z cest 6in4 tunel od Hurricane Electric.\r\nOvšem tento tunel rozbíjí služby typu Video on Demand jako je (HBO) Max, Disney plus a další.\r\nCílem přednášky je jak obejít geoblokaci a jak vyřešit případné problémy s tunelem.",
+            "description": null,
+            "duration": 25,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-02T15:00:00+01:00",
+                "end": "2024-11-02T15:25:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-12T12:17:39.178087+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "3APNN7",
+            "speakers": [
+                {
+                    "code": "9WNZHX",
+                    "name": "Lukáš Kotek",
+                    "biography": "Software QE v Red Hatu, nadšenec do open source, Pythonu, Fedory a Linuxu obecně, stejně jako do nějakého toho domácího bastlení. A také bývalý učitel :)",
+                    "avatar": "https://talks.openalt.cz/media/avatars/ja_redhat_hvNUwol.jpg",
+                    "email": "lukas@lukaskotek.eu"
+                }
+            ],
+            "title": "Retro laptop Pocket 386 a FreeDOS",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "IoT a Hnutí tvůrců"
+            },
+            "track_id": 17,
+            "state": "confirmed",
+            "abstract": "Přednáška seznámí s letos představeným retro laptopem Pocket 386 (následovníkem projektů jako Book 8088 a Hand 386), u kterého uvedené číslo 386 není jen pouhá shoda náhod. Jaké má parametry? K čemu lze laptop použít? Jak se na něm zprovozní FreeDOS s ohledem na české prostředí? A co je vůbec zač tento open source DOS-kompatibilní operační systém, který je dodnes vyvíjen? Jaké jsou reálné zkušenosti po několika měsících používání? Na tyto i další otázky přinese přednáška odpovědi, přičemž prezentace samozřejmě proběhne přímo z laptopu Pocket 386 :-)",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-03T11:00:00+01:00",
+                "end": "2024-11-03T11:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/3APNN7/nabootovany_Pc3m01I.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-22T18:59:20.077307+02:00",
+            "pending_state": null,
+            "notes": "Dobrou představu poskytne můj text https://www.root.cz/clanky/pocket-386-freedos-na-malem-notebooku-se-spoustou-konektoru/, ale určitě neplánuji jen zopakovat obsah článku.",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "B79R7W",
+            "speakers": [
+                {
+                    "code": "TE337C",
+                    "name": "Pavol Hejný",
+                    "biography": "I'm Pavol, a developer passionate about new tools and technologies.\r\n\r\nI specialize in creating fully functional user applications using the latest artificial intelligence models.\r\n\r\nI am a member of the [Ainautes](https://www.ainautes.com/) consulting group, which supports the deployment of generative AI around the world.\r\n\r\nCurrently, I work on the [Promptbook framework](https://www.npmjs.com/package/@promptbook/utils), which enables easy and smart abstraction and orchestration of large-language models (like ChatGPT).\r\n\r\nBefore the massive emergence of generative AI, I created the first Czech virtual whiteboard, [Collboard](https://collboard.com/), and electronic textbooks, [H-edu](https://www.h-edu.cz/), used by tens of thousands of children.\r\n\r\nI have also worked on many scientific projects for the [Czech Ornithological Society](https://www.birdlife.cz/). I regularly give lectures at conferences, sit on juries, and act as a mentor in many Czech and international competitions. I have a special heart for this, and I love open source – you can find many of my projects on [my GitHub](https://github.com/hejny) or [website](https://www.pavolhejny.com/).",
+                    "avatar": "https://talks.openalt.cz/media/avatars/pavol-hejny-cropped_f1uO7pf.jpg",
+                    "email": "me@pavolhejny.com"
+                }
+            ],
+            "title": "Jak vyvíjet aplikace nad velkými jazykovými modely",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Poslední dva roky byly jako na horské dráze. Nejen (Chat)GPT zcela změnil pravidla celých odvětví.\r\n\r\nPoslední tři roky jsem strávil vývojem aplikací založených na velkých jazykových modelech. Pracoval jsem na generování psaného písma pro virtuální tabuli, zápisníku pro učitele a na spuštění nástroje pro generování jednoduchých webových stránek.\r\n\r\nPři tom všem jsem narazil na mnoho konkrétních problémů a výzev, které jsem postupně přetavil ve framework [Promptbook](https://github.com/webgptorg/promptbook) pro psaní aplikací. Tento framework umožňuje komukoli automatizovat generování a zpracování textu.\r\n\r\nV mé přednášce se dozvíte, jakým výzvám budete čelit při tvorbě složitějších aplikací založených na jazykových modelech (asistenti, firemní chaty s mnoha informacemi, generátory příspěvků, avataři...).\r\n\r\n**Přednáška** bude obecně o výzvách. Na **workshopu** pak prakticky ukážu vývoj takové aplikace od jednoduchého použití až po složitější ukázky.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-03T13:00:00+01:00",
+                "end": "2024-11-03T13:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/B79R7W/pavol-hejny-full_GypSypZ.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-27T12:04:12.961730+02:00",
+            "pending_state": null,
+            "notes": "Mohu v češtině i angličtině, záleží na tom, co je pro vás nejlepší.\r\n\r\n+ Přihlašuji přednášku a workshop, které spolu souvisejí.",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "TAU3GV",
+            "speakers": [
+                {
+                    "code": "TE337C",
+                    "name": "Pavol Hejný",
+                    "biography": "I'm Pavol, a developer passionate about new tools and technologies.\r\n\r\nI specialize in creating fully functional user applications using the latest artificial intelligence models.\r\n\r\nI am a member of the [Ainautes](https://www.ainautes.com/) consulting group, which supports the deployment of generative AI around the world.\r\n\r\nCurrently, I work on the [Promptbook framework](https://www.npmjs.com/package/@promptbook/utils), which enables easy and smart abstraction and orchestration of large-language models (like ChatGPT).\r\n\r\nBefore the massive emergence of generative AI, I created the first Czech virtual whiteboard, [Collboard](https://collboard.com/), and electronic textbooks, [H-edu](https://www.h-edu.cz/), used by tens of thousands of children.\r\n\r\nI have also worked on many scientific projects for the [Czech Ornithological Society](https://www.birdlife.cz/). I regularly give lectures at conferences, sit on juries, and act as a mentor in many Czech and international competitions. I have a special heart for this, and I love open source – you can find many of my projects on [my GitHub](https://github.com/hejny) or [website](https://www.pavolhejny.com/).",
+                    "avatar": "https://talks.openalt.cz/media/avatars/pavol-hejny-cropped_f1uO7pf.jpg",
+                    "email": "me@pavolhejny.com"
+                }
+            ],
+            "title": "Vytvořte si svého avatara pro psaní příspěvků!",
+            "submission_type": {
+                "cs": "Workshop",
+                "en": "Workshop"
+            },
+            "submission_type_id": 14,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Poslední dva roky byly jako na horské dráze. Nejen ChatGPT zcela změnil pravidla celých odvětví.\r\n\r\nPoslední tři roky jsem strávil vývojem aplikací založených na velkých jazykových modelech. Pracoval jsem na generování psaného písma pro virtuální tabuli, zápisníku pro učitele a spustil jsem nástroj pro generování jednoduchých webových stránek.\r\n\r\nPři tom všem jsem narazil na mnoho konkrétních problémů a výzev, které jsem postupně přetavil ve [framework Promptbook](https://github.com/webgptorg/promptbook) pro psaní aplikací, což umožňuje komukoli automatizovat generování a zpracování textu.\r\n\r\nNa mém workshopu si ukážeme, jak integrovat velké jazykové modely jednoduše, jaké jsou s nimi praktické problémy a jak tyto problémy odstranit.\r\n\r\nPřednáška bude o výzvách obecně, na workshopu ukážu vývoj takové aplikace od jednoduchého použití až po složitější ukázky prakticky.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 15,
+                "room": {
+                    "cs": "A112",
+                    "en": "A112"
+                },
+                "start": "2024-11-03T15:00:00+01:00",
+                "end": "2024-11-03T15:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/TAU3GV/pavol-hejny-full_3JcBGHc.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-27T12:13:44.523266+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "CRJBCS",
+            "speakers": [
+                {
+                    "code": "MNEBQ7",
+                    "name": "Michal Hrušecký",
+                    "biography": "Dlouhá léta pracoval v SUSE a propagoval openSUSE a pracoval na projektech podporujícím komunitu. Po krátké zastávce v korporátu přešel do CZ.NIC pracovat na projektu Turris, který v současnosti vede.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/ja_SH6yYPO.jpg",
+                    "email": "michal@hrusecky.net"
+                }
+            ],
+            "title": "Novinky v Turrisu",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Na čem jsme v Turrisu letos pracovali? Co je v Turrisu nového? Na čem pracujeme a na co se můžete těšit? Primárně o tom bude tato přednáška. Pokud vás projekt Turris zajímá, přijďte si poslechnout co se v něm děje.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-02T14:00:00+01:00",
+                "end": "2024-11-02T14:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-08-30T09:01:21.859903+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "LRVTNP",
+            "speakers": [
+                {
+                    "code": "Z9JCVN",
+                    "name": "Martin Stransky",
+                    "biography": "Firefox developer",
+                    "avatar": "https://talks.openalt.cz/media/avatars/mstransky_3ASzYQ9.jpg",
+                    "email": "stransky@anakreon.cz"
+                }
+            ],
+            "title": "Shrnutí stavu Linuxového desktopu, Firefoxu, Gtk, VA-API, Vulkanu, HDR, DMABuf",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Proč Linuxový desktop vypadá jak vypadá. Kdo ho používá, tvoří a jakou má motivaci? Podíváme se do zákulisí jak se \"pečou\" nové technologie a proč bývá cesta ke změnám trnitá.\r\n\r\nShrneme aktuální stav Firefoxu a toolkitů Gtk3/4, VA-API a DMABuf.\r\nProbereme novinky a trendy jako HDR, Vulkan nebo hardwarové enkodóvání videa pro WebRTC.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-02T14:00:00+01:00",
+                "end": "2024-11-02T14:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-09-03T22:24:06.067499+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "NZPXRG",
+            "speakers": [
+                {
+                    "code": "V7NBFD",
+                    "name": "Martin Kolman",
+                    "biography": "Martin se dlouhodobě věnuje problematice mobilních linuxových operačních systémů a související oblasti otevřené mobilní navigace a svobodných geodat.\r\n\r\nJeho oblíbeným programovacím jazykem je Python/QML a mezi jeho zájmy patří 3D tisk, Japonsko, kosmonautika, mezikontinentální stratosferické balónové sondy a architektura.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/MartinKolman_mnboWDT.jpg",
+                    "email": "mkolman@redhat.com"
+                }
+            ],
+            "title": "Sailfish OS - znovuzrození nezničitelného mobilního OS",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "OpenMobility"
+            },
+            "track_id": 21,
+            "state": "confirmed",
+            "abstract": "V době minulého OpenAltu se firma Jolla zastřešující vývoj Sailfish OS nacházela v soudem nařízené restrukturalizaci a nebylo jasné, zda se tento projekt dožije dalšího roku. Krizi se však podařilo překonat & zároveň se zbavit problematických investorů, kteří dle názorů mnohých členů komunity blokovali perspektivní směry vývoje tohoto zasloužilého a stále perspektivního mobilního OS.\r\n\r\nVýsledkem je na poměry Sailfish OS nebývalé smršť aktivity - ať už se jedná o nový komunitní hardware či další várku mobilů od Sony, na kterých lze Sailfish OS oficiálně provozovat - a nechybí ani obligátní \"umělá inteligence\"! ;-)\r\n\r\nV přednášce probereme co se vlastně stalo na konci roku 2023, jak vypadají znovuzrozená Jolla a Sailfish OS v roce 2024 a co to může znamenat pro komunitu kolem tohoto OS a mobilní Linux obecně.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-03T14:00:00+01:00",
+                "end": "2024-11-03T14:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-09-04T14:13:33.970248+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
         {
             "code": "CSJDUJ",
             "speakers": [
@@ -33,10 +523,10 @@
             "is_featured": false,
             "content_locale": "cs",
             "slot": {
-                "room_id": 15,
+                "room_id": 19,
                 "room": {
-                    "cs": "A112",
-                    "en": "A112"
+                    "cs": "D0207",
+                    "en": "D0207"
                 },
                 "start": "2024-11-02T10:00:00+01:00",
                 "end": "2024-11-02T10:45:00+01:00"
@@ -87,8 +577,8 @@
                     "cs": "D0207",
                     "en": "D0207"
                 },
-                "start": "2024-11-02T14:00:00+01:00",
-                "end": "2024-11-02T14:45:00+01:00"
+                "start": "2024-11-02T11:00:00+01:00",
+                "end": "2024-11-02T11:45:00+01:00"
             },
             "image": "https://talks.openalt.cz/media/openalt-2024/submissions/SC87XG/leap_19Emkwd.png",
             "resources": [],
@@ -102,84 +592,28 @@
             "favourite_count": 0
         },
         {
-            "code": "CWZ9Z8",
+            "code": "U8XLTB",
             "speakers": [
                 {
-                    "code": "ACFT9V",
-                    "name": "Jiří Vlasák",
-                    "biography": "",
-                    "avatar": "https://talks.openalt.cz/media/avatars/me_E9qhjig.jpg",
-                    "email": "jiri.hubacek@gmail.com"
+                    "code": "X9QVC8",
+                    "name": "Petr Krčmář",
+                    "biography": "Linuxem a unixovými systémy se zabývá již více než dvě dekády, baví ho servery, informační bezpečnost a internetové technologie. Propaguje nasazení otevřeného software a svobodného přístupu k informacím. Má rád moderní věci, které dávají smysl a klasické věci, které dobře fungují.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/Petr_Krcmar_ImdP9yo.jpg",
+                    "email": "petr@krcmarovi.cz"
                 }
             ],
-            "title": "Rebase is base",
-            "submission_type": {
-                "cs": "Dlouhý workshop",
-                "en": "Long workshop"
-            },
-            "submission_type_id": 16,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Git je de facto standard pro sledování změn zdrojového kódu a obecně spolupráci vývojářů. \"Rebase is base\" představuje základní příkazy Git z příkazové řádky na vývoji jednoduchého Python 3 balíčku.\r\n\r\nPrerekvizity jsou:\r\n- vlastní notebook\r\n- s instalovaným Git (Git Bash na Windows) a Python 3\r\n- a nějaký textový editor\r\n\r\nPrezentace: https://qeef.srht.site/talk/rebase-is-base.pdf\r\nKroky workshopu v angličtině: https://qeef.srht.site/note/rebase-is-base/\r\nKroky workshopu v češtině: https://cs.wikibooks.org/wiki/Git_pro_m%C4%9B/Rebase_je_z%C3%A1klad\r\n\r\n(Nemyslím si, že za 1.8 hodiny stihneme vše, ale taky si nemyslím, že to vadí.)",
-            "description": null,
-            "duration": 105,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 15,
-                "room": {
-                    "cs": "A112",
-                    "en": "A112"
-                },
-                "start": "2024-11-02T13:00:00+01:00",
-                "end": "2024-11-02T14:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-09-24T00:27:25.155109+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": "",
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "R9HNAD",
-            "speakers": [
-                {
-                    "code": "HTMYVR",
-                    "name": "Pavel Šimerda",
-                    "biography": null,
-                    "avatar": null,
-                    "email": "pavel@simerda.eu"
-                },
-                {
-                    "code": "VQT3DW",
-                    "name": "Sára Šimerdová",
-                    "biography": null,
-                    "avatar": null,
-                    "email": "kvetinkakocourkova@gmail.com"
-                }
-            ],
-            "title": "Na programování nemusíme umět číst a psát",
+            "title": "SVCB, HTTPS, DDR a další novinky v DNS",
             "submission_type": {
                 "cs": "Přednáška",
                 "en": "Talk"
             },
             "submission_type_id": 13,
             "track": {
-                "en": "Vzdělávání"
+                "en": "Otevřený a svobodný software"
             },
-            "track_id": 18,
+            "track_id": 16,
             "state": "confirmed",
-            "abstract": "Programování zní spoustě lidem jako velká věda hraničící se školou čar a kouzel. Proto je nejlepší začít s mladšími dětmi, které tomu ještě nerozumí, a nechápou, že jim na tom má něco nejít. Na dnešní době mě nejvíc baví to, že děti mají k dispozici takové nástroje, že mě ke svojí práci skoro nepotřebují. Frontální výuka je u mladších dětí zbytečná až nepotřebná. Mnohem více času a energie věnuju měkkým dovednostem než vysvětlování technické stránky činnosti. Na tu si děti přicházejí samy, a to už od těch nejmladších, co ještě neumějí číst a psát.",
+            "abstract": "Nové DNS záznamy typu SVCB (Service Binding) a HTTPS (Hypertext Transfer Protocol Secure) nabízejí řešení pro vyhledávání služeb, zrychlení sestavování spojení a zlepšení soukromí. Podíváme se, jak přesně tyto záznamy fungují a jak se dají použít v praxi.",
             "description": null,
             "duration": 45,
             "slot_count": 1,
@@ -192,62 +626,13 @@
                     "cs": "D105",
                     "en": "D105"
                 },
-                "start": "2024-11-02T16:00:00+01:00",
-                "end": "2024-11-02T16:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/R9HNAD/20231230_130119_GXwGlhR.jpg",
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-12T14:52:51.605033+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "3BPTU9",
-            "speakers": [
-                {
-                    "code": "RXAGL9",
-                    "name": "Ondřej Profant",
-                    "biography": "Ondřej Profant byl náměstkem ministra na Úřadu vlády. Jako jeden z autorů Zákona o právu na digitální služby se nyní zabývá jeho implementací. Předchozí zkušenost má ze zastupitelstva Hl. m. Prahy a z Poslanecké sněmovny.\r\n\r\nJe jedním ze zakládajících členů Pirátů, během uplynulých 15 let se tak podílel na formování velké části stranických idejí, programů i mnohých legislativních návrhů. A to hlavně v oblasti IT a digitalizace veřejné správy.\r\n\r\nPoužívá Fedoru.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/abb820-16cd4b7e3af8e60c3b05f031e167be72aa3119f4b606000fbc9641ab1f23c605_X8l6nLg.jpg",
-                    "email": "ondrej.profant@gmail.com"
-                }
-            ],
-            "title": "Kam se posunul egovernment za uplynulé 3 roky?",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřená společnost, komunity a data"
-            },
-            "track_id": 20,
-            "state": "confirmed",
-            "abstract": "Uplynulé 3 roky měla Česká republika vícepremiéra pro digitalizaci. Kam jsme se posunuli a co důležitého vzniklo? Projdeme si hlavní úspěchy, chybky i věci v kterých by bylo záhodno pokračovat.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 19,
-                "room": {
-                    "cs": "D0207",
-                    "en": "D0207"
-                },
-                "start": "2024-11-02T13:00:00+01:00",
-                "end": "2024-11-02T13:45:00+01:00"
+                "start": "2024-11-02T10:00:00+01:00",
+                "end": "2024-11-02T10:45:00+01:00"
             },
             "image": null,
             "resources": [],
             "answers": [],
-            "created": "2024-10-18T13:51:31.077089+02:00",
+            "created": "2024-09-13T11:51:19.902832+02:00",
             "pending_state": null,
             "notes": "",
             "internal_notes": null,
@@ -319,305 +704,6 @@
             "favourite_count": 0
         },
         {
-            "code": "ZNRPFP",
-            "speakers": [
-                {
-                    "code": "BZACZJ",
-                    "name": "Jiří Šperka",
-                    "biography": "",
-                    "avatar": null,
-                    "email": "georgejewel@gmail.com"
-                }
-            ],
-            "title": "Může generativní AI škodit fyzice?",
-            "submission_type": {
-                "cs": "Krátká přednáška",
-                "en": "Short talk"
-            },
-            "submission_type_id": 17,
-            "track": {
-                "en": "Vzdělávání"
-            },
-            "track_id": 18,
-            "state": "confirmed",
-            "abstract": "Ukážeme si příklady, kdy generativní AI neprospívá fyzice a její výuce. Jak tento nástroj nepoužívat?",
-            "description": null,
-            "duration": 25,
-            "slot_count": 1,
-            "do_not_record": true,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-03T15:00:00+01:00",
-                "end": "2024-11-03T15:25:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-09-29T12:13:33.658903+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "LRVTNP",
-            "speakers": [
-                {
-                    "code": "Z9JCVN",
-                    "name": "Martin Stransky",
-                    "biography": "Firefox developer",
-                    "avatar": "https://talks.openalt.cz/media/avatars/mstransky_3ASzYQ9.jpg",
-                    "email": "stransky@anakreon.cz"
-                }
-            ],
-            "title": "Shrnutí stavu Linuxového desktopu, Firefoxu, Gtk, VA-API, Vulkanu, HDR, DMABuf",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Proč Linuxový desktop vypadá jak vypadá. Kdo ho používá, tvoří a jakou má motivaci? Podíváme se do zákulisí jak se \"pečou\" nové technologie a proč bývá cesta ke změnám trnitá.\r\n\r\nShrneme aktuální stav Firefoxu a toolkitů Gtk3/4, VA-API a DMABuf.\r\nProbereme novinky a trendy jako HDR, Vulkan nebo hardwarové enkodóvání videa pro WebRTC.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 16,
-                "room": {
-                    "cs": "A113",
-                    "en": "A113"
-                },
-                "start": "2024-11-02T14:00:00+01:00",
-                "end": "2024-11-02T14:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-09-03T22:24:06.067499+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "8LLHLJ",
-            "speakers": [
-                {
-                    "code": "93S9KR",
-                    "name": "Michal Ševčík",
-                    "biography": "Michal Ševčík je student Gymnázia Karviná, působí na osvětovém webu Co nevíte o škole (coneviteoskole.cz), je spoluautorem Badatelského zápisníku (TakTik), knihy o formativním pojetí výuky (vyjde v lednu 2024) a mnoha článků v časopisech a sbornících pro učitele. Má zkušenosti s doučováním i výukou v tandemu s učiteli. Je aktivní ve vědě, působil či působí jako stážista na univerzitách i akademických pracovištích. Mezi jeho zaměření patří analytická chemie a didaktika chemie. Je dlouhodobým dobrovolníkem v sociálních službách. Za své činnosti obdržel různá ocenění (Moravskoslezský kraj - žáci SŠ, město Karviná - osobnosti sociální práce, Středoškolák roku - TOP100).",
-                    "avatar": "https://talks.openalt.cz/media/avatars/350133005_6268786159869403_1150582826611696251_n_PLmGBhu.jpg",
-                    "email": "26x_sevcik.michal@gym-karvina.cz"
-                }
-            ],
-            "title": "Nové přístupy ke vzdělávání: jsou opravdu nové?",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Vzdělávání"
-            },
-            "track_id": 18,
-            "state": "confirmed",
-            "abstract": "Přednáška se zaobírá novými přístupy ke vzdělávání a učení, zejména problematikou formativního hodnocení, dobrovolných domácích úkolů, respektující komunikace a projektového vyučování. Většinou je zvykem považovat výše zmíněné za inovace a novoty ve vzdělávání. Na přednášce se dozvíte nejen to nejdůležitější z oblasti vzdělávacích trendů, ale zároveň společně podnikneme historický exkurs a podíváme se na historické prameny, které strčí do kapsy i dnešní snahy o progresivní a alternativní vzdělávání. Pedagogičtí inovátoři a reformátoři tady totiž byli vždy a jejich myšlenky jsou si velmi podobné. Je na čase se pořádně zamyslet a jako společnost začít uvažovat o změně paradigmatu vzdělávání!",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": true,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-02T16:00:00+01:00",
-                "end": "2024-11-02T16:45:00+01:00"
-            },
-            "image": null,
-            "resources": [
-                {
-                    "resource": "https://www.coneviteoskole.cz/",
-                    "description": "Osvětový web Co nevíte o škole"
-                }
-            ],
-            "answers": [],
-            "created": "2024-10-14T13:33:20.291110+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "NKKMQN",
-            "speakers": [
-                {
-                    "code": "B3PCGN",
-                    "name": "Jiří Eischmann",
-                    "biography": "Linuxu se věnuje 20 let. Je dlouholetým přispěvatelem do GNOME a Fedory a aktuálně pracuje jako manažer týmu, který se věnuje desktopovým aplikacím v Red Hatu. Více na eischmann.cz.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/542c139f628bf2ad142d98a9117fdc45_WKOAtWD.jpg",
-                    "email": "jiri@eischmann.cz"
-                }
-            ],
-            "title": "Nerozbitný Linux pro celou rodinu",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "20 let spravuji linuxový desktop pro sebe a lidi ve svém okolí. V přednášce se podělím o řešení a přístupy, ke kterým jsem se za ta léta dopracoval, abych co nejvíce ulehčil život sobě a lidem, kterým počítače spravuji. Budu se věnovat aktualizacím a upgradům systému, distribuci aplikací, vzdálené správě, migraci dat atd.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 19,
-                "room": {
-                    "cs": "D0207",
-                    "en": "D0207"
-                },
-                "start": "2024-11-02T15:00:00+01:00",
-                "end": "2024-11-02T15:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-16T16:51:11.560851+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "PKVCLK",
-            "speakers": [
-                {
-                    "code": "WQHBZD",
-                    "name": "Tomas Vondra",
-                    "biography": "",
-                    "avatar": "https://talks.openalt.cz/media/avatars/1ddb2d847aa35b4edfc54bfd6f4dc306_sr6kv9x.jpg",
-                    "email": "tv@fuzzy.cz"
-                }
-            ],
-            "title": "What's new in PostgreSQL 17",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "PostgreSQL 17 is already out, released about a month ago, so let's quickly go through the improvements and changes in this major release. I'll talk about the main admin / developer changes, and things to be aware of.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "en",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-03T10:00:00+01:00",
-                "end": "2024-11-03T10:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-10T12:32:33.832991+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "RHLNXL",
-            "speakers": [
-                {
-                    "code": "E8GPPD",
-                    "name": "Standa Láznička",
-                    "biography": "Už 9 let dělám vývoj software v open-source světě, v současnoti pro Microsoft, předtím pro Red Hat.\r\n\r\nPřevážně se šolichám s Kubernetes, certifikáty, OAuth2, OIDC a podobnými autentizačně/autorizačními mechanismy.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/01ec970f42607ad30fdc489168c6c7d2_XdglTVL.jpg",
-                    "email": "slaz@seznam.cz"
-                }
-            ],
-            "title": "Co je to ten Kubernetes?",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Kubernetes se řadí mezi výraznější a úspěšné open-source projekty posledního desetiletí a je oblíbenou platformou pro vývoj a nasazování aplikací. Co to ale dělá, a jak?\r\nSpolečně projdeme jednotlivé součásti Kubernetes, zjistíme, jaká je jejich funkce, ukážeme si, jak si s Kubernetes povídat a snad rozběhneme i pár kontejnerů.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 17,
-                "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-03T14:00:00+01:00",
-                "end": "2024-11-03T14:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-04T16:13:55.437613+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
             "code": "CRFDEX",
             "speakers": [
                 {
@@ -667,105 +753,7 @@
             "favourite_count": 0
         },
         {
-            "code": "AGJAQE",
-            "speakers": [
-                {
-                    "code": "RL7EUW",
-                    "name": "Luděk Šmíd",
-                    "biography": "Nadšenec do Open Source, domácí automatizace a Linuxu snad odjakživa.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/f485c130e0dc386c5366ffbbb3fe8e72_e6kqKOK.jpg",
-                    "email": "ludeksmid1@gmail.com"
-                }
-            ],
-            "title": "Godot Game Engine - jak na váš první projekt?",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Chcete vyvíjet hry pomocí open source enginu a nevíte kde začít? Duo otce a dcery vytvořilo hru Emma v Godot Game Engine a spolu vám představí vývojové prostředí a nasdílí své zkušenosti s tvorbou svého prvního projektu.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-03T13:00:00+01:00",
-                "end": "2024-11-03T13:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/AGJAQE/openalt_5YrUvDk.png",
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-07T21:53:44.178861+02:00",
-            "pending_state": null,
-            "notes": "Hra https://monikasmidova.itch.io/emma byla vytvořena jako pololetní projekt při studiu oboru GameArt na Střední škole umění a designu.\r\n\r\nV Godotu jsem vyvinul několik drobností do šuplíku, ale projekt Emma byl první, který jsme vydali.",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "9QKADM",
-            "speakers": [
-                {
-                    "code": "RHYGEQ",
-                    "name": "Mária Šviriková",
-                    "biography": "",
-                    "avatar": null,
-                    "email": "msviriko@redhat.com"
-                }
-            ],
-            "title": "Ako sa (ne)rozprávať s používateľmi",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Vzdělávání"
-            },
-            "track_id": 18,
-            "state": "confirmed",
-            "abstract": "Bude doplneno",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-02T14:00:00+01:00",
-                "end": "2024-11-02T14:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-18T13:24:48.023762+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": "",
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "9FRSL9",
+            "code": "CWZ9Z8",
             "speakers": [
                 {
                     "code": "ACFT9V",
@@ -775,301 +763,39 @@
                     "email": "jiri.hubacek@gmail.com"
                 }
             ],
-            "title": "Neprogramátor",
+            "title": "Rebase is base",
             "submission_type": {
-                "cs": "Krátká přednáška",
-                "en": "Short talk"
+                "cs": "Dlouhý workshop",
+                "en": "Long workshop"
             },
-            "submission_type_id": 17,
-            "track": {
-                "en": "Vzdělávání"
-            },
-            "track_id": 18,
-            "state": "confirmed",
-            "abstract": "Myslím si, že Aaronova představa programování jako čarování je vlastně dost přesná. Čaroděj vytvoří kouzelnou větu v neznámém jazyce, neznámého významu, která se neznámo jak vykoná, aby nakonec dostal, co chtěl.\r\n\r\nNeprogramátor je (wiki)kniha pro ty, co chtějí vědět, cože to to programování vlastně je. Zároveň je i pro ty, co se chtějí naučit programovat, ale HTDP (https://htdp.org/) pro ně postupuje moc rychle.\r\n\r\nPřednáška je představení přístupu, kterým Neprogramátor vysvětluje programování. Důvod přednášky je zpětná vazba, která doufám pomůže odhlalit slabé stránky knihy.\r\n\r\n- https://cs.wikibooks.org/wiki/Neprogram%C3%A1tor\r\n- https://neprogramator.cz/",
-            "description": null,
-            "duration": 25,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-02T15:00:00+01:00",
-                "end": "2024-11-02T15:25:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-12T11:04:26.611494+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "BEWHHL",
-            "speakers": [
-                {
-                    "code": "QLW99P",
-                    "name": "Petr Šic",
-                    "biography": "Student SSPŠ, který se už 6 let pohybuje v oblasti modelových raket. Zaměřuje se na jejich konstrukci, design a simulaci. V současnosti s kolegy pracuje na vývoji suborbitálních raket pro široké spektrum aplikací v rámci projektu SoRC.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/profilepictureface-removebg-preview1_55ow60j.png",
-                    "email": "sic.peta@gmail.com"
-                },
-                {
-                    "code": "WELZKQ",
-                    "name": "Ota Železný",
-                    "biography": null,
-                    "avatar": null,
-                    "email": "ota.zelezny@gmail.com"
-                },
-                {
-                    "code": "UHWZFV",
-                    "name": "Jan Ledvina",
-                    "biography": "Student SSPŠ.\r\n\r\nZajímám se o vše okolo výpočetních technologií, od softwaru a programování až po robotiku a PCB design.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/jan_ledvina_O1tClc1.png",
-                    "email": "honzaled@proton.me"
-                }
-            ],
-            "title": "Vývoj studentské suborbitální rakety",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "cs": "Studentská sekce",
-                "en": "Student track"
-            },
-            "track_id": 23,
-            "state": "confirmed",
-            "abstract": "Vývoj studentské suborbitální rakety přináší řadu technických, organizačních a finančních výzev. V této přednášce se zaměříme na klíčové problémy, jako jsou simulace a design rakety, integrace elektroniky se softwarem pro řízení letu a sběru dat.\r\nNásledně se zaměříme na fungování týmu, splnění bezpečnostních požadavků a jejich testování, a také nahlédneme do vývoje vlastního raketového motoru. \r\nPřednáška je určena pro studenty a nadšence do raketové techniky, ale i pro úplné laiky, kteří chtějí nahlédnout do zákulisí vývoje suborbitální rakety.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-02T10:00:00+01:00",
-                "end": "2024-11-02T10:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-12T23:52:59.591097+02:00",
-            "pending_state": null,
-            "notes": "přednáška bude mít 3 přednášející, kteří se během průběhu vystřídají, aby mluvili o věcech na které se specializují a dali tak posluchačům co nejpřesnější poznatky",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "ZKY3GU",
-            "speakers": [
-                {
-                    "code": "MK7LSL",
-                    "name": "Petr Štěpánek",
-                    "biography": "As a CTO and co-founder of Macromo, I led bioinformaticians and developers in building an AI to integrate blood tests, wearables, and DNA data to help you add 10 years to your active lifespan. \r\n\r\nPreviously, I founded Next Zone, a hardware startup accelerator in Prague, which supports hundreds of young founders and students, providing them with mentoring and professional equipment.\r\n\r\nMy journey began in high school with the co-founding of an electric skateboard startup. Starting in a garage, we scaled to serve customers across Europe, during which I lived in Shenzhen to build our supply chain and prototype faster. Additionally, I co-founded Undout, a startup aimed at improving sleep habits with an innovative alarm clock that we brought to the market through crowdfunding.",
-                    "avatar": null,
-                    "email": "info@petrstepanek.com"
-                }
-            ],
-            "title": "From Skateboards to Genomics and More",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "cs": "Studentská sekce",
-                "en": "Student track"
-            },
-            "track_id": 23,
-            "state": "confirmed",
-            "abstract": "Petr Štěpánek will be sharing his story, which starts with his first electric skateboards startup, his trip to China, then continues with founding a hardware incubator Next Zone, and then research in genomics and his latest startup Macromo.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-02T11:00:00+01:00",
-                "end": "2024-11-02T11:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/ZKY3GU/macromo-nasdaq_mdw14eo.jpg",
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-12T17:03:10.510030+02:00",
-            "pending_state": null,
-            "notes": "Information about the story and projects briefly mentioned here: https://www.petrstepanek.com/",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "V9HNUQ",
-            "speakers": [
-                {
-                    "code": "7YXZNB",
-                    "name": "Jiří Konečný",
-                    "biography": "Red Hatter od 2015. Developer, dříve Team Lead nyní PO pro instalátor Anaconda, použitý pro instalaci Fedory, RHELu a CentOS a dalších.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/me_RjLYkcV.JPG",
-                    "email": "jiri.konec@pacse.eu"
-                }
-            ],
-            "title": "Strastiplná cesta nového Web UI interface pro Anacondu",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
+            "submission_type_id": 16,
             "track": {
                 "en": "Otevřený a svobodný software"
             },
             "track_id": 16,
             "state": "confirmed",
-            "abstract": "Již je to dávno, na IT poměry, když se objevila myšlenka pro vytvoření Webového interface pro Anacondu, instalátoru Fedory, RHELu, CentOS a dalších. Tato myšlenka je ambiciózní a stále vzniká a přetváří se za pomoci mnoha a mnoha lidí, kteří ji pomáhají posouvat stále kupředu. Ze začátku to byl pouze nápad, který byl možná spíše v žertu podoknut v kuchyňce, a nyní jsme po mnoha letech v situaci, kde se snažíme změnit přístup pro instalaci Fedory a dalších systémů.\r\nV této prezentaci bych Vás rád provedl cestou od vzniku této myšlenky až k tomu, co je dnes viditelné ve Fedora Workstation Rawhide, včetně četných problémů, které bylo po cestě nutné řešit. To vše z pohledu developera, team leada a PO.",
+            "abstract": "Git je de facto standard pro sledování změn zdrojového kódu a obecně spolupráci vývojářů. \"Rebase is base\" představuje základní příkazy Git z příkazové řádky na vývoji jednoduchého Python 3 balíčku.\r\n\r\nPrerekvizity jsou:\r\n- vlastní notebook\r\n- s instalovaným Git (Git Bash na Windows) a Python 3\r\n- a nějaký textový editor\r\n\r\nPrezentace: https://qeef.srht.site/talk/rebase-is-base.pdf\r\nKroky workshopu v angličtině: https://qeef.srht.site/note/rebase-is-base/\r\nKroky workshopu v češtině: https://cs.wikibooks.org/wiki/Git_pro_m%C4%9B/Rebase_je_z%C3%A1klad\r\n\r\n(Nemyslím si, že za 1.8 hodiny stihneme vše, ale taky si nemyslím, že to vadí.)",
             "description": null,
-            "duration": 45,
+            "duration": 105,
             "slot_count": 1,
             "do_not_record": false,
             "is_featured": false,
             "content_locale": "cs",
             "slot": {
-                "room_id": 16,
+                "room_id": 15,
                 "room": {
-                    "cs": "A113",
-                    "en": "A113"
+                    "cs": "A112",
+                    "en": "A112"
                 },
                 "start": "2024-11-02T13:00:00+01:00",
-                "end": "2024-11-02T13:45:00+01:00"
+                "end": "2024-11-02T14:45:00+01:00"
             },
             "image": null,
             "resources": [],
             "answers": [],
-            "created": "2024-10-07T13:48:48.973882+02:00",
+            "created": "2024-09-24T00:27:25.155109+02:00",
             "pending_state": null,
             "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "DBGVTZ",
-            "speakers": [
-                {
-                    "code": "KC7MEF",
-                    "name": "Ondřej Caletka",
-                    "biography": "Ondřej Caletka vystudoval elektrotechnickou fakultu ČVUT, obor Telekomunikační technika a po více než osmi letech ve sdružení CESNET, provozujícím národní síť vědy a výzkumu, nyní pracuje ve vzdělávacím oddělení RIPE NCC, asociace koordinující internetové sítě v Evropě, na Blízkém východě a v severní Asii.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/7a88779c2a79bc643a59b1ea9a641a94_zcK98Kq.jpg",
-                    "email": "ondrej.caletka@gmail.com"
-                }
-            ],
-            "title": "Pohled do zákulisí sítě pro RIPE Meeting",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Dvakrát ročně pořádá RIPE NCC setkání komunity internetových sítí na různých místech po celé Evropě. Na této akci provozujeme vlastní Wi-Fi síť pro návštěvníky. Po mnoha letech jsme dokonvergovali do stavu, kdy naprostá většina aktivních prvků běží na Linuxu a open source softwaru a síťový hardware je používán pouze na linkové vrstvě. V přednášce se podělím o zkušenosti s provozováním takové sítě se zaměřením na tipy, které jsou přenositelné i na jiné typy sítí.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 19,
-                "room": {
-                    "cs": "D0207",
-                    "en": "D0207"
-                },
-                "start": "2024-11-02T16:00:00+01:00",
-                "end": "2024-11-02T16:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-08T09:14:12.695581+02:00",
-            "pending_state": null,
-            "notes": "Na OpenAlt se dostanu až v sobotu odpoledne.",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "9YSQPX",
-            "speakers": [
-                {
-                    "code": "GUSUXC",
-                    "name": "Václav Knapp",
-                    "biography": "Jsem členem několika výzkumných týmů v oblasti AI. \r\nNa ČVUT CIIRC, kde se specializuje na počítačové vidění a robotiku. Současně působí v Ústavu teorie informace a automatizace AV ČR, kde se věnuje výzkumu v oblasti zpracování obrazu a geoinformatiky ve spolupráci s Geoinformatickým ústavem Univerzity Karlovi. \r\n\r\nMým hlavním zaměřením je výzkum na UC Berkeley v rámci Berkeley AI Research (BAIR) pod vedením postdoktoranda Tylera Bonnena v laboratořích Alexeje Efrose a Jitendry Malika. Kde zaměřuji na propojení a zkoumání neurovědy a umělé inteligence. \r\n\r\nDříve jsem spolupracoval (občasně vypomáhám i dnes) s Fyzikální laboratoří na Univerzitě Palackého, kde jsem. programoval řídící systémy pro kontrolu iontových kvantových bitů v iontových pastech, v rámci výzkumu kvantových počítačů.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/IMG_5241_wzdrQBL.jpeg",
-                    "email": "vasikknapp@gmail.com"
-                }
-            ],
-            "title": "Historie a současnost výzkumu umělé inteligence",
-            "submission_type": {
-                "cs": "Krátká přednáška",
-                "en": "Short talk"
-            },
-            "submission_type_id": 17,
-            "track": {
-                "cs": "Studentská sekce",
-                "en": "Student track"
-            },
-            "track_id": 23,
-            "state": "confirmed",
-            "abstract": "Společně se podíváme na vývoj umělé inteligence, od jejích historických počátků až po současné klíčové algoritmy a principy. Závěrem se zaměříme na nejnovější výzkumy a diskuse týkající se hranic vědomí a budoucího směřování AI.",
-            "description": null,
-            "duration": 25,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-02T13:00:00+01:00",
-                "end": "2024-11-02T13:25:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-13T19:10:23.252700+02:00",
-            "pending_state": null,
-            "notes": "Přednáška o historii výzkumu.\r\nPředstavení základních algoritmů (konvoluce, transformers, atd.)\r\n\r\nNejnovější výzkumy v computer vision a NLP.",
             "internal_notes": "",
             "tags": [],
             "tag_ids": [],
@@ -1125,28 +851,28 @@
             "favourite_count": 0
         },
         {
-            "code": "AZDQQP",
+            "code": "WSYSLG",
             "speakers": [
                 {
-                    "code": "V7FLDK",
-                    "name": "Marcel Kolaja",
-                    "biography": "Marcel Kolaja je aktivista za lidská práva v digitálním věku a celoživotní fanoušek svobodných technologií. V letech 2019--2024 působil jako poslanec Evropského parlamentu, ve kterém zastával i funkce místopředsedy a kvestora. V Evropském parlamentu působil kromě předsednictva také ve výboru pro vnitřní trh a ochranu spotřebitelů (IMCO), ve výboru pro kulturu a vzdělávání (CULT), ve zvláštním výboru pro umělou inteligenci v digitálním věku (AIDA) a ve výboru k vyšetření použití spyware Pegasus a dalších. Pracoval na celé řadě legislativních aktů spojených s fungováním společnosti v digitálním věku,\r\nvčetně aktu o digitálních trzích, ve kterém navrhl a prosadil povinnost pro digitální giganty nabídnout interoperabilitu s jejich chatovacími platformami. V minulosti zastával různé pozice v oboru informačních technologií od systémového administrátora po technického produktového manažera.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/avatar6-2448x2448_0joVeyK.jpeg",
-                    "email": "marcel+openalt_cz@kolaja.eu"
+                    "code": "RZ7EVB",
+                    "name": "David Bařina",
+                    "biography": "Získal jsem doktorát na FIT VUT v Brně, kde v současnosti pracuji jako vědecký pracovník.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/6d97a5cecaf61887679df1f79b59b157_7dUQJE2.jpg",
+                    "email": "dabler@gmail.com"
                 }
             ],
-            "title": "Jsou technologie přeregulované nebo podregulované?",
+            "title": "Komprese dat",
             "submission_type": {
                 "cs": "Přednáška",
                 "en": "Talk"
             },
             "submission_type_id": 13,
             "track": {
-                "en": "Otevřená společnost, komunity a data"
+                "en": "Otevřený a svobodný software"
             },
-            "track_id": 20,
+            "track_id": 16,
             "state": "confirmed",
-            "abstract": "Akt o digitálních službách (DSA), akt o digitálních trzích (DMA), akt o umělé inteligenci (AIA), akt o kybernetické odolnosti (CRA), směrnice o odpovědnosti za vadné výrobky (PLD),... To jsou jen některé z evropských legislativních aktů přijatých v uplynulém funkčním období. Jaké kladou technologickým firmám povinnosti? Je to moc? Nebo naopak málo? Co bude dál? Budou snad následovat ještě další? Jak je to s povinným šmírováním v soukromých konverzacích (Chat Control)? A kdy už konečně tohle všechno skončí? V přednášce se dozvíte odpovědi na všechny tyto otázky a mnohem víc.",
+            "abstract": "V přednášce vysvětlím principy základních kompresních metod, jako je LZ77 nebo Burrowsova–Wheelerova transformace (BWT). Následně se budu věnovat v současnosti používaným nástrojům jako Zstandard, Brotli nebo bzip3, které nakonec srovnám z hlediska kompresního výkonu. Přednáška tak odpoví na otázku, „Který kompresní algoritmus je na mých datech ten nejúčinnější?“",
             "description": null,
             "duration": 45,
             "slot_count": 1,
@@ -1154,620 +880,23 @@
             "is_featured": false,
             "content_locale": "cs",
             "slot": {
-                "room_id": 17,
+                "room_id": 16,
                 "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-03T10:00:00+01:00",
-                "end": "2024-11-03T10:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-18T21:05:13.704090+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "NZPXRG",
-            "speakers": [
-                {
-                    "code": "V7NBFD",
-                    "name": "Martin Kolman",
-                    "biography": "Martin se dlouhodobě věnuje problematice mobilních linuxových operačních systémů a související oblasti otevřené mobilní navigace a svobodných geodat.\r\n\r\nJeho oblíbeným programovacím jazykem je Python/QML a mezi jeho zájmy patří 3D tisk, Japonsko, kosmonautika, mezikontinentální stratosferické balónové sondy a architektura.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/MartinKolman_mnboWDT.jpg",
-                    "email": "mkolman@redhat.com"
-                }
-            ],
-            "title": "Sailfish OS - znovuzrození nezničitelného mobilního OS",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "OpenMobility"
-            },
-            "track_id": 21,
-            "state": "confirmed",
-            "abstract": "V době minulého OpenAltu se firma Jolla zastřešující vývoj Sailfish OS nacházela v soudem nařízené restrukturalizaci a nebylo jasné, zda se tento projekt dožije dalšího roku. Krizi se však podařilo překonat & zároveň se zbavit problematických investorů, kteří dle názorů mnohých členů komunity blokovali perspektivní směry vývoje tohoto zasloužilého a stále perspektivního mobilního OS.\r\n\r\nVýsledkem je na poměry Sailfish OS nebývalé smršť aktivity - ať už se jedná o nový komunitní hardware či další várku mobilů od Sony, na kterých lze Sailfish OS oficiálně provozovat - a nechybí ani obligátní \"umělá inteligence\"! ;-)\r\n\r\nV přednášce probereme co se vlastně stalo na konci roku 2023, jak vypadají znovuzrozená Jolla a Sailfish OS v roce 2024 a co to může znamenat pro komunitu kolem tohoto OS a mobilní Linux obecně.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 19,
-                "room": {
-                    "cs": "D0207",
-                    "en": "D0207"
+                    "cs": "A113",
+                    "en": "A113"
                 },
                 "start": "2024-11-03T14:00:00+01:00",
                 "end": "2024-11-03T14:45:00+01:00"
             },
             "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-09-04T14:13:33.970248+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "XXAXHC",
-            "speakers": [
-                {
-                    "code": "8MATQU",
-                    "name": "Pavel Machek",
-                    "biography": "",
-                    "avatar": "https://talks.openalt.cz/media/avatars/PavelMachek_QhA4CuX.jpg",
-                    "email": "pavel@ucw.cz"
-                }
-            ],
-            "title": "Hry, rotoped a sen o létajícím kole",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "IoT a Hnutí tvůrců"
-            },
-            "track_id": 17,
-            "state": "confirmed",
-            "abstract": "Malé povídání o open-source hrách. Soustředím se na letecký simulátor FlightGear a na motivaci k pohybu. Podrobněji budu mluvit o rotopedu připojeném k počítači.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 17,
-                "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-03T15:00:00+01:00",
-                "end": "2024-11-03T15:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-04T15:23:15.098002+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": "",
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "3APNN7",
-            "speakers": [
-                {
-                    "code": "9WNZHX",
-                    "name": "Lukáš Kotek",
-                    "biography": "Software QE v Red Hatu, nadšenec do open source, Pythonu, Fedory a Linuxu obecně, stejně jako do nějakého toho domácího bastlení. A také bývalý učitel :)",
-                    "avatar": "https://talks.openalt.cz/media/avatars/ja_redhat_hvNUwol.jpg",
-                    "email": "lukas@lukaskotek.eu"
-                }
-            ],
-            "title": "Retro laptop Pocket 386 a FreeDOS",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "IoT a Hnutí tvůrců"
-            },
-            "track_id": 17,
-            "state": "confirmed",
-            "abstract": "Přednáška seznámí s letos představeným retro laptopem Pocket 386 (následovníkem projektů jako Book 8088 a Hand 386), u kterého uvedené číslo 386 není jen pouhá shoda náhod. Jaké má parametry? K čemu lze laptop použít? Jak se na něm zprovozní FreeDOS s ohledem na české prostředí? A co je vůbec zač tento open source DOS-kompatibilní operační systém, který je dodnes vyvíjen? Jaké jsou reálné zkušenosti po několika měsících používání? Na tyto i další otázky přinese přednáška odpovědi, přičemž prezentace samozřejmě proběhne přímo z laptopu Pocket 386 :-)",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 18,
-                "room": {
-                    "cs": "D0206",
-                    "en": "D0206"
-                },
-                "start": "2024-11-03T11:00:00+01:00",
-                "end": "2024-11-03T11:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/3APNN7/nabootovany_Pc3m01I.jpg",
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-22T18:59:20.077307+02:00",
-            "pending_state": null,
-            "notes": "Dobrou představu poskytne můj text https://www.root.cz/clanky/pocket-386-freedos-na-malem-notebooku-se-spoustou-konektoru/, ale určitě neplánuji jen zopakovat obsah článku.",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "CRJBCS",
-            "speakers": [
-                {
-                    "code": "MNEBQ7",
-                    "name": "Michal Hrušecký",
-                    "biography": "Dlouhá léta pracoval v SUSE a propagoval openSUSE a pracoval na projektech podporujícím komunitu. Po krátké zastávce v korporátu přešel do CZ.NIC pracovat na projektu Turris, který v současnosti vede.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/ja_SH6yYPO.jpg",
-                    "email": "michal@hrusecky.net"
-                }
-            ],
-            "title": "Novinky v Turrisu",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Na čem jsme v Turrisu letos pracovali? Co je v Turrisu nového? Na čem pracujeme a na co se můžete těšit? Primárně o tom bude tato přednáška. Pokud vás projekt Turris zajímá, přijďte si poslechnout co se v něm děje.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 17,
-                "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-02T14:00:00+01:00",
-                "end": "2024-11-02T14:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-30T09:01:21.859903+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "DJTHHE",
-            "speakers": [
-                {
-                    "code": "QC9U9G",
-                    "name": "Tomáš Tichý",
-                    "biography": "Dlouholetý linuxák, milovních chameleonů, šotouš, fotograf, řiditel autobusu a jeho polovodič.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/Strana_1_GxZ7BK4.png",
-                    "email": "to@mail.marny.eu"
-                }
-            ],
-            "title": "VoD a další služby s IPv6 tunelem od HE",
-            "submission_type": {
-                "cs": "Krátká přednáška",
-                "en": "Short talk"
-            },
-            "submission_type_id": 17,
-            "track": {
-                "en": "Bezpečnost a soukromí"
-            },
-            "track_id": 19,
-            "state": "confirmed",
-            "abstract": "Pokud toužíte po IPv6 a váš poskytovatel ji nepodporuje, je jedna z cest 6in4 tunel od Hurricane Electric.\r\nOvšem tento tunel rozbíjí služby typu Video on Demand jako je (HBO) Max, Disney plus a další.\r\nCílem přednášky je jak obejít geoblokaci a jak vyřešit případné problémy s tunelem.",
-            "description": null,
-            "duration": 25,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 16,
-                "room": {
-                    "cs": "A113",
-                    "en": "A113"
-                },
-                "start": "2024-11-02T15:00:00+01:00",
-                "end": "2024-11-02T15:25:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-12T12:17:39.178087+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "WFF7AR",
-            "speakers": [
-                {
-                    "code": "AZUS8N",
-                    "name": "Ota Michálek",
-                    "biography": null,
-                    "avatar": null,
-                    "email": "tajemnik@czechrockets.com"
-                }
-            ],
-            "title": "Czech Rocket Society & Czech Rocket Challenge",
-            "submission_type": {
-                "cs": "Lightning talk",
-                "en": "Lightning talk"
-            },
-            "submission_type_id": 18,
-            "track": {
-                "cs": "Studentská sekce",
-                "en": "Student track"
-            },
-            "track_id": 23,
-            "state": "confirmed",
-            "abstract": "Czech Rocket Society je samostatný spolek pro studenty vysokých škol, které baví a zajímá kosmonautika a rakety. Chceme dát příležitost uplatnit své studium v praxi, ale zároveň se rozvíjet samostatně, zkoušet a experimentovat. Zároveň chceme k raketám a kosmonautice přistupovat komplexně a i proto se například zajímáme o legalitu kolem raket, účastníme se vzdělávacích akcí a sami organizujeme soutěž Czech Rocket Challenge pro studenty. Czech Rocket Challenge je týmová soutež určená pro středo- a vysokoškolské studenty. V rámci této výzvy týmy studentů* navrhují, testují, staví a nakonec odpalují svoji raketu. Nehodnotí se jen dosažená výška, ale i pokročilost a komplexnost rakety, propracovanost reportu apod.",
-            "description": null,
-            "duration": 10,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 16,
-                "room": {
-                    "cs": "A113",
-                    "en": "A113"
-                },
-                "start": "2024-11-02T11:30:00+01:00",
-                "end": "2024-11-02T11:40:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-20T12:06:01.856711+02:00",
-            "pending_state": null,
-            "notes": "Budu rád za zmínění odkazu na Linktree, nebo alespoň IG:\r\nhttps://linktr.ee/czechrockets?utm_source=linktree_profile_share&ltsid=5be62df2-7a89-4847-80a1-7fc0fafebbb1\r\n\r\nhttps://www.instagram.com/czechrockets/",
-            "internal_notes": "",
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "ZFUXCQ",
-            "speakers": [
-                {
-                    "code": "D8P3MJ",
-                    "name": "esyr",
-                    "biography": "Jeden z vývojářů strace.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/avatar_VU7zSru.jpg",
-                    "email": "evgsyr@gmail.com"
-                }
-            ],
-            "title": "Současný strace",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Diagnostický a ladící software `strace` je hojně využíván jak mezi vývojáři, tak mezi uživateli systémů na základu Linuxu. Ačkoliv se do povědomí veřejnosti již dostal díky svým vybraným, základním funkcím, tedy sledování komunikace mezi procesy a linuxovým jádrem, jeho plný potenciál a nové možnosti stále nejsou zcela rozšířené.\r\nV této přednášce budou popsány funkce a možnosti současního `strace`, a demonstrovany různé druhy problémů, které tyto funkce pomáhají řešit.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 19,
-                "room": {
-                    "cs": "D0207",
-                    "en": "D0207"
-                },
-                "start": "2024-11-03T11:00:00+01:00",
-                "end": "2024-11-03T11:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/ZFUXCQ/strace_head_square_8dSMraL.png",
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-07T15:23:37.255045+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "U8XLTB",
-            "speakers": [
-                {
-                    "code": "X9QVC8",
-                    "name": "Petr Krčmář",
-                    "biography": "Linuxem a unixovými systémy se zabývá již více než dvě dekády, baví ho servery, informační bezpečnost a internetové technologie. Propaguje nasazení otevřeného software a svobodného přístupu k informacím. Má rád moderní věci, které dávají smysl a klasické věci, které dobře fungují.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/Petr_Krcmar_ImdP9yo.jpg",
-                    "email": "petr@krcmarovi.cz"
-                }
-            ],
-            "title": "SVCB, HTTPS, DDR a další novinky v DNS",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Nové DNS záznamy typu SVCB (Service Binding) a HTTPS (Hypertext Transfer Protocol Secure) nabízejí řešení pro vyhledávání služeb, zrychlení sestavování spojení a zlepšení soukromí. Podíváme se, jak přesně tyto záznamy fungují a jak se dají použít v praxi.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 17,
-                "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-02T10:00:00+01:00",
-                "end": "2024-11-02T10:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-09-13T11:51:19.902832+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "LU9WNG",
-            "speakers": [
-                {
-                    "code": "S8MGHK",
-                    "name": "Ondřej Doležal",
-                    "biography": "Systémový administrátor v Redamp.io se zájmem o kyberbezpečnost, počítačové sítě, IoT a soukromí na internetu. Najdete mě na https://x.com/o_dolezal a https://linkedin.com/in/odolezal.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/OD_2024_ZtLNOLp.jpg",
-                    "email": "odolezal@odolezal.cz"
-                }
-            ],
-            "title": "Bezpečné DNS doma i na cestách",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Bezpečnost a soukromí"
-            },
-            "track_id": 19,
-            "state": "confirmed",
-            "abstract": "Systém DNS (Domain Name System) zajišťuje jednu ze základních služeb na internetu a to překlad doménových jmen na IP adresy. Pokud používáte internet, používáte i DNS.\r\n\r\nKromě legitimních domén, na kterých jsou běžné webové stránky, které chceme navštívit, existují i škodlivé domény. Ty typicky slouží jako vstupní brána pro nejrůznější internetové hrozby, nejčastěji phishing nebo malware. V ideálním případě se chceme připojením na tyto domény úplně vyhnout. K tomu slouží princip tzv. filtrování DNS dotazů, který funguje jako základní ochrana při procházení internetu, ať už na počítači doma nebo na mobilu kdekoliv jinde.\r\n\r\nV této přednášce se podíváme na to, jaké jsou praktické možnosti filtrování domén. Jestli raději zvolit řešení postavené na otevřeném systému ve vlastní režii a nebo tuto úlohu přenechat některé z nabízených služeb, ať už zdarma nebo za peníze. Popíšeme si vlastnosti a charakteristiky obou řešení a zaměříme se na hlavní přednosti i nedostatky, případně si nastíníme situace, kdy zvolit jaké řešení.\r\n\r\nA protože bezpečné DNS je i soukromé DNS, nebude opomenut ani tento aspekt. Rozebereme jak se bránit proti případnému odposlechnutí komunikace a jakou vybrat externí službu, která nezaznamenává naši internetovou stopu.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 17,
-                "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-03T11:00:00+01:00",
-                "end": "2024-11-03T11:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/LU9WNG/Designer_1VN8qgZ.jpg",
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-06T22:12:12.725440+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "7ENZA9",
-            "speakers": [
-                {
-                    "code": "WQHBZD",
-                    "name": "Tomas Vondra",
-                    "biography": "",
-                    "avatar": "https://talks.openalt.cz/media/avatars/1ddb2d847aa35b4edfc54bfd6f4dc306_sr6kv9x.jpg",
-                    "email": "tv@fuzzy.cz"
-                }
-            ],
-            "title": "Praktické základy vývoje PostgreSQL",
-            "submission_type": {
-                "cs": "Dlouhý workshop",
-                "en": "Long workshop"
-            },
-            "submission_type_id": 16,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Cílem workshopu je seznámení s technickými základy vývoje PostgreSQL. Během loňského workshopu jsem se soustředil spíše na organizační/procesní stránku, letos se zaměříme výrazně na technickou část, tj. základní strukturu zdrojáků (kde najít jaký modul, apod.). jak používat \"configure\", buildovat a pouštět různé testy, jak nastavit/používat CI na githubu, apod.",
-            "description": null,
-            "duration": 105,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 15,
-                "room": {
-                    "cs": "A112",
-                    "en": "A112"
-                },
-                "start": "2024-11-03T13:00:00+01:00",
-                "end": "2024-11-03T14:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-10T12:38:15.672294+02:00",
-            "pending_state": null,
-            "notes": "alternativně to můžu udělat v angličtině, nevím jaké je publikum",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "TAU3GV",
-            "speakers": [
-                {
-                    "code": "TE337C",
-                    "name": "Pavol Hejný",
-                    "biography": "I'm Pavol, a developer passionate about new tools and technologies.\r\n\r\nI specialize in creating fully functional user applications using the latest artificial intelligence models.\r\n\r\nI am a member of the [Ainautes](https://www.ainautes.com/) consulting group, which supports the deployment of generative AI around the world.\r\n\r\nCurrently, I work on the [Promptbook framework](https://www.npmjs.com/package/@promptbook/utils), which enables easy and smart abstraction and orchestration of large-language models (like ChatGPT).\r\n\r\nBefore the massive emergence of generative AI, I created the first Czech virtual whiteboard, [Collboard](https://collboard.com/), and electronic textbooks, [H-edu](https://www.h-edu.cz/), used by tens of thousands of children.\r\n\r\nI have also worked on many scientific projects for the [Czech Ornithological Society](https://www.birdlife.cz/). I regularly give lectures at conferences, sit on juries, and act as a mentor in many Czech and international competitions. I have a special heart for this, and I love open source – you can find many of my projects on [my GitHub](https://github.com/hejny) or [website](https://www.pavolhejny.com/).",
-                    "avatar": "https://talks.openalt.cz/media/avatars/pavol-hejny-cropped_f1uO7pf.jpg",
-                    "email": "me@pavolhejny.com"
-                }
-            ],
-            "title": "Vytvořte si svého avatara pro psaní příspěvků!",
-            "submission_type": {
-                "cs": "Workshop",
-                "en": "Workshop"
-            },
-            "submission_type_id": 14,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Poslední dva roky byly jako na horské dráze. Nejen ChatGPT zcela změnil pravidla celých odvětví.\r\n\r\nPoslední tři roky jsem strávil vývojem aplikací založených na velkých jazykových modelech. Pracoval jsem na generování psaného písma pro virtuální tabuli, zápisníku pro učitele a spustil jsem nástroj pro generování jednoduchých webových stránek.\r\n\r\nPři tom všem jsem narazil na mnoho konkrétních problémů a výzev, které jsem postupně přetavil ve [framework Promptbook](https://github.com/webgptorg/promptbook) pro psaní aplikací, což umožňuje komukoli automatizovat generování a zpracování textu.\r\n\r\nNa mém workshopu si ukážeme, jak integrovat velké jazykové modely jednoduše, jaké jsou s nimi praktické problémy a jak tyto problémy odstranit.\r\n\r\nPřednáška bude o výzvách obecně, na workshopu ukážu vývoj takové aplikace od jednoduchého použití až po složitější ukázky prakticky.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 15,
-                "room": {
-                    "cs": "A112",
-                    "en": "A112"
-                },
-                "start": "2024-11-03T15:00:00+01:00",
-                "end": "2024-11-03T15:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/TAU3GV/pavol-hejny-full_3JcBGHc.jpg",
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-27T12:13:44.523266+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "3XTMDF",
-            "speakers": [
-                {
-                    "code": "3EBWCZ",
-                    "name": "Pavel Píša",
-                    "biography": "He studied cybernetics and robotics at [CTU](https://www.cvut.cz/en) [FEE](https://fel.cvut.cz/en), where he currently teaches and works on projects using GNU/Linux and other processor technologies. He participates in design of firmware and electronics of laboratory and medical devices and precise servo control at [PiKRON.com](http://pikron.com/) company. He provides consultations to more companies in the field as well.\r\n\r\n- projects positions: https://openhub.net/accounts/ppisa/positions\r\n- knowledge base for students, enthusiasts and professionals: https://gitlab.fel.cvut.cz/otrees/org/-/wikis/knowbase",
-                    "avatar": "https://talks.openalt.cz/media/avatars/Pavel_Pisa_ZtsYwZ8.jpg",
-                    "email": "ppisa@pikron.com"
-                }
-            ],
-            "title": "Začlenění real-time podpory do Linuxu ve zlatém balení",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "V září roku 2024 byla do hlavního vývojového stromu předaná Thomasem Gleixner poslední úprava  nutná pro povolení PREEMP_RT pro architektury x86, AArch64 a RISC-V. Předání Linusovi Torvaldsovi proběhlo na svitku ve zlatém balení na vrcholu věže Saturn Tower ve Vídni. I předchozí úpravy přinášely použití natolik užitečného pro nasazení jádra i mimo RT oblast, že komunitu kolem RT nasazení GNU/Linuxu uznal za užitečnou a hodnou začlenění její práce. Přitom první její setkání proběhlo ve Vídni před 25 lety (Real Time Linux Workshop). Dalším kulatým jubileem je 20 let od představení možných řešení nasazení Linuxu pro real-time na konferenci Real Time Linux Workshop na Lanzhou University v Číně. V tom roce byly první drobné úpravy (runtime locking correctness validator) začleněné do hlavního vývojového stromu. Do součané doby bylo pro zprovoznění RT do hlavního stromu jádra zasláno asi 10000 změn přímo týmem kolem RT vývoje a 5000 změn v navazujících ovladačích a subsystémech přidaných jejich správci v návaznosti na požadavky na opravy a další potřeby.\r\n\r\nV přednášce zkusím přiblížit historii vývoje, kterou jsem od začátku sledoval, a i zkušenosti s naším nasazením v reálných aplikacích a souvisejících testovacích systémech.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 19,
-                "room": {
-                    "cs": "D0207",
-                    "en": "D0207"
-                },
-                "start": "2024-11-03T10:00:00+01:00",
-                "end": "2024-11-03T10:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/3XTMDF/the-golden-commit_80SNPLu.jpg",
             "resources": [
                 {
-                    "resource": "https://social.kernel.org/notice/AmBb9tDqmw7QG6B7Bo",
-                    "description": "The Golden Commit"
-                },
-                {
-                    "resource": "https://www.root.cz/clanky/gnu-linux-pro-rizeni-a-rychlost-jeho-odezvy/",
-                    "description": "GNU/Linux pro řízení a rychlost jeho odezvy (článek ROOT.cz 2016)"
-                },
-                {
-                    "resource": "https://www.root.cz/clanky/linux-pro-rizeni-minimalisticke-reseni-rizeni-stejnosmerneho-motoru/",
-                    "description": "Praktická část o využití pro řízení motorku z Raspberry Pi (článek ROOT.cz 2016)"
+                    "resource": "https://talks.openalt.cz/media/openalt-2024/submissions/WSYSLG/resources/openalt-compression_0f0wdUu.pdf",
+                    "description": "Slajdy"
                 }
             ],
             "answers": [],
-            "created": "2024-10-01T11:17:03.401734+02:00",
+            "created": "2024-09-25T15:39:27.702865+02:00",
             "pending_state": null,
             "notes": "",
             "internal_notes": null,
@@ -1810,8 +939,8 @@
                     "cs": "A112",
                     "en": "A112"
                 },
-                "start": "2024-11-02T11:00:00+01:00",
-                "end": "2024-11-02T11:45:00+01:00"
+                "start": "2024-11-02T10:00:00+01:00",
+                "end": "2024-11-02T10:45:00+01:00"
             },
             "image": null,
             "resources": [],
@@ -1825,327 +954,32 @@
             "favourite_count": 0
         },
         {
-            "code": "B79R7W",
+            "code": "ZNRPFP",
             "speakers": [
                 {
-                    "code": "TE337C",
-                    "name": "Pavol Hejný",
-                    "biography": "I'm Pavol, a developer passionate about new tools and technologies.\r\n\r\nI specialize in creating fully functional user applications using the latest artificial intelligence models.\r\n\r\nI am a member of the [Ainautes](https://www.ainautes.com/) consulting group, which supports the deployment of generative AI around the world.\r\n\r\nCurrently, I work on the [Promptbook framework](https://www.npmjs.com/package/@promptbook/utils), which enables easy and smart abstraction and orchestration of large-language models (like ChatGPT).\r\n\r\nBefore the massive emergence of generative AI, I created the first Czech virtual whiteboard, [Collboard](https://collboard.com/), and electronic textbooks, [H-edu](https://www.h-edu.cz/), used by tens of thousands of children.\r\n\r\nI have also worked on many scientific projects for the [Czech Ornithological Society](https://www.birdlife.cz/). I regularly give lectures at conferences, sit on juries, and act as a mentor in many Czech and international competitions. I have a special heart for this, and I love open source – you can find many of my projects on [my GitHub](https://github.com/hejny) or [website](https://www.pavolhejny.com/).",
-                    "avatar": "https://talks.openalt.cz/media/avatars/pavol-hejny-cropped_f1uO7pf.jpg",
-                    "email": "me@pavolhejny.com"
-                }
-            ],
-            "title": "Jak vyvíjet aplikace nad velkými jazykovými modely",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "Poslední dva roky byly jako na horské dráze. Nejen (Chat)GPT zcela změnil pravidla celých odvětví.\r\n\r\nPoslední tři roky jsem strávil vývojem aplikací založených na velkých jazykových modelech. Pracoval jsem na generování psaného písma pro virtuální tabuli, zápisníku pro učitele a na spuštění nástroje pro generování jednoduchých webových stránek.\r\n\r\nPři tom všem jsem narazil na mnoho konkrétních problémů a výzev, které jsem postupně přetavil ve framework [Promptbook](https://github.com/webgptorg/promptbook) pro psaní aplikací. Tento framework umožňuje komukoli automatizovat generování a zpracování textu.\r\n\r\nV mé přednášce se dozvíte, jakým výzvám budete čelit při tvorbě složitějších aplikací založených na jazykových modelech (asistenti, firemní chaty s mnoha informacemi, generátory příspěvků, avataři...).\r\n\r\n**Přednáška** bude obecně o výzvách. Na **workshopu** pak prakticky ukážu vývoj takové aplikace od jednoduchého použití až po složitější ukázky.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 17,
-                "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-03T13:00:00+01:00",
-                "end": "2024-11-03T13:45:00+01:00"
-            },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/B79R7W/pavol-hejny-full_GypSypZ.jpg",
-            "resources": [],
-            "answers": [],
-            "created": "2024-08-27T12:04:12.961730+02:00",
-            "pending_state": null,
-            "notes": "Mohu v češtině i angličtině, záleží na tom, co je pro vás nejlepší.\r\n\r\n+ Přihlašuji přednášku a workshop, které spolu souvisejí.",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "WSYSLG",
-            "speakers": [
-                {
-                    "code": "RZ7EVB",
-                    "name": "David Bařina",
-                    "biography": "Získal jsem doktorát na FIT VUT v Brně, kde v současnosti pracuji jako vědecký pracovník.",
-                    "avatar": "https://talks.openalt.cz/media/avatars/6d97a5cecaf61887679df1f79b59b157_7dUQJE2.jpg",
-                    "email": "dabler@gmail.com"
-                }
-            ],
-            "title": "Komprese dat",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "V přednášce vysvětlím principy základních kompresních metod, jako je LZ77 nebo Burrowsova–Wheelerova transformace (BWT). Následně se budu věnovat v současnosti používaným nástrojům jako Zstandard, Brotli nebo bzip3, které nakonec srovnám z hlediska kompresního výkonu. Přednáška tak odpoví na otázku, „Který kompresní algoritmus je na mých datech ten nejúčinnější?“",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 16,
-                "room": {
-                    "cs": "A113",
-                    "en": "A113"
-                },
-                "start": "2024-11-03T14:00:00+01:00",
-                "end": "2024-11-03T14:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-09-25T15:39:27.702865+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "VHBSZW",
-            "speakers": [
-                {
-                    "code": "WLMKDD",
-                    "name": "Adam Procio",
-                    "biography": "adamprocio.cz/pages/about-me",
-                    "avatar": null,
-                    "email": "adam.procio@gmail.com"
-                }
-            ],
-            "title": "Linux v tvojí ledničce - YoctoProject a OE",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "IoT a Hnutí tvůrců"
-            },
-            "track_id": 17,
-            "state": "confirmed",
-            "abstract": "Pokusím se přiblížit framework, který je dnes již industry standard ve vývoji Linux systémů (nejen) pro embedded zařízení.\r\n\r\nPříklady dotazů, které přednáška zodpoví:\r\n* Co to je?\r\n* Proč to je?\r\n* Jak to funguje?\r\n* Jak se to používá?\r\n\r\nNa co nebudu schopen odpovědět:\r\n* Vyplatí se mi to použít?\r\n* Jak se YP/OE liší od Y?\r\n* Měl bych si koupit motorku?",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 17,
-                "room": {
-                    "cs": "D105",
-                    "en": "D105"
-                },
-                "start": "2024-11-02T15:00:00+01:00",
-                "end": "2024-11-02T15:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-17T14:19:58.304856+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": "",
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "DLCBSG",
-            "speakers": [
-                {
-                    "code": "FFVZUZ",
-                    "name": "Martin Hubáček",
+                    "code": "BZACZJ",
+                    "name": "Jiří Šperka",
                     "biography": "",
                     "avatar": null,
-                    "email": "hub.martin@gmail.com"
+                    "email": "georgejewel@gmail.com"
                 }
             ],
-            "title": "Jak používáme embedded Zephyr RTOS v HARDWARIO",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "IoT a Hnutí tvůrců"
-            },
-            "track_id": 17,
-            "state": "confirmed",
-            "abstract": "V HARDWARIO používáme Zephyr RTOS open-source operační systém na několika platformách NRF nebo STM32. Rád bych ukázal, jak nám pomáhá s vývojem, jak fungují boards, subsystémy, drivery..",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 19,
-                "room": {
-                    "cs": "D0207",
-                    "en": "D0207"
-                },
-                "start": "2024-11-03T13:00:00+01:00",
-                "end": "2024-11-03T13:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-04T11:56:13.012434+02:00",
-            "pending_state": null,
-            "notes": "tel: 603 197 065",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "GQGCJB",
-            "speakers": [
-                {
-                    "code": "YAM8MX",
-                    "name": "Josef Reidinger",
-                    "biography": "Na konferenci přijíždím od Hradce Králové. Před lety jsem vystudoval informatiku na Karlově univerzitě a ještě během studií jsem nastoupil do SUSE, kde celou dobu vyvíjím otevřený software.\r\nVětšinu me práce z posledních let je možné vidět na [githubu](https://github.com/jreidinger/).",
-                    "avatar": "https://talks.openalt.cz/media/avatars/20230618_133228_tGJb9lQ.jpg",
-                    "email": "josef.reidinger@gmail.com"
-                }
-            ],
-            "title": "Agama: novy linuxový instalátor po roce",
-            "submission_type": {
-                "cs": "Přednáška",
-                "en": "Talk"
-            },
-            "submission_type_id": 13,
-            "track": {
-                "en": "Otevřený a svobodný software"
-            },
-            "track_id": 16,
-            "state": "confirmed",
-            "abstract": "No loňském OpenAltu jsme si představili Agamu - nový linuxový instalátor s webovým rozhraní, CLI i automatickým během. Přednáška má za cíl ukázat co se za ten rok změnilo, kde se používá i jaké jsou plány do budoucna.",
-            "description": null,
-            "duration": 45,
-            "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 16,
-                "room": {
-                    "cs": "A113",
-                    "en": "A113"
-                },
-                "start": "2024-11-03T13:00:00+01:00",
-                "end": "2024-11-03T13:45:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-03T16:33:29.604013+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "JTD8JT",
-            "speakers": [
-                {
-                    "code": "YAM8MX",
-                    "name": "Josef Reidinger",
-                    "biography": "Na konferenci přijíždím od Hradce Králové. Před lety jsem vystudoval informatiku na Karlově univerzitě a ještě během studií jsem nastoupil do SUSE, kde celou dobu vyvíjím otevřený software.\r\nVětšinu me práce z posledních let je možné vidět na [githubu](https://github.com/jreidinger/).",
-                    "avatar": "https://talks.openalt.cz/media/avatars/20230618_133228_tGJb9lQ.jpg",
-                    "email": "josef.reidinger@gmail.com"
-                }
-            ],
-            "title": "Full Stack vývoj a opensource nástroje",
+            "title": "Může generativní AI škodit fyzice?",
             "submission_type": {
                 "cs": "Krátká přednáška",
                 "en": "Short talk"
             },
             "submission_type_id": 17,
             "track": {
-                "en": "Otevřený a svobodný software"
+                "en": "Vzdělávání"
             },
-            "track_id": 16,
+            "track_id": 18,
             "state": "confirmed",
-            "abstract": "Po dvou letech vývoje open source webového instalátoru bych se rád v této přednášce podělil co používáme pro vývoj a zkušenosti s těmito nástroji.\r\nPoužité technologie jsou DBus, http API backend v rustu a webový frontend v ReactJS.",
+            "abstract": "Ukážeme si příklady, kdy generativní AI neprospívá fyzice a její výuce. Jak tento nástroj nepoužívat?",
             "description": null,
             "duration": 25,
             "slot_count": 1,
-            "do_not_record": false,
-            "is_featured": false,
-            "content_locale": "cs",
-            "slot": {
-                "room_id": 16,
-                "room": {
-                    "cs": "A113",
-                    "en": "A113"
-                },
-                "start": "2024-11-03T15:00:00+01:00",
-                "end": "2024-11-03T15:25:00+01:00"
-            },
-            "image": null,
-            "resources": [],
-            "answers": [],
-            "created": "2024-10-03T15:34:24.690930+02:00",
-            "pending_state": null,
-            "notes": "",
-            "internal_notes": null,
-            "tags": [],
-            "tag_ids": [],
-            "favourite_count": 0
-        },
-        {
-            "code": "HWUXYZ",
-            "speakers": [
-                {
-                    "code": "NA83ER",
-                    "name": "Anna Jungmannová",
-                    "biography": "",
-                    "avatar": "https://talks.openalt.cz/media/avatars/signal-2024-10-06-185723_004_ca7Ubxx.jpeg",
-                    "email": "annajungmannova@icloud.com"
-                }
-            ],
-            "title": "Vrstevnické vyučování kybernetické bezpečnosti",
-            "submission_type": {
-                "cs": "Lightning talk",
-                "en": "Lightning talk"
-            },
-            "submission_type_id": 18,
-            "track": {
-                "cs": "Studentská sekce",
-                "en": "Student track"
-            },
-            "track_id": 23,
-            "state": "confirmed",
-            "abstract": "Jak zajistit, aby výuka kybernetické bezpečnosti studenty nejen zaujala, ale také jim poskytla praktické dovednosti, které mohou ihned využít? Co kdybych vám řekla, že studenti jsou schopni učit své vrstevníky a tím obohatit celý vzdělávací proces? Vrstevnické vyučování podporuje aktivní zapojení studentů, umožňuje efektivnější sdílení znalostí a posiluje vzájemnou spolupráci",
-            "description": null,
-            "duration": 10,
-            "slot_count": 1,
-            "do_not_record": false,
+            "do_not_record": true,
             "is_featured": false,
             "content_locale": "cs",
             "slot": {
@@ -2154,13 +988,13 @@
                     "cs": "D0206",
                     "en": "D0206"
                 },
-                "start": "2024-11-02T15:25:00+01:00",
-                "end": "2024-11-02T15:35:00+01:00"
+                "start": "2024-11-03T15:00:00+01:00",
+                "end": "2024-11-03T15:25:00+01:00"
             },
-            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/HWUXYZ/6_89MyQEl.jpg",
+            "image": null,
             "resources": [],
             "answers": [],
-            "created": "2024-10-13T20:54:46.355748+02:00",
+            "created": "2024-09-29T12:13:33.658903+02:00",
             "pending_state": null,
             "notes": "",
             "internal_notes": null,
@@ -2218,6 +1052,980 @@
             "favourite_count": 0
         },
         {
+            "code": "3XTMDF",
+            "speakers": [
+                {
+                    "code": "3EBWCZ",
+                    "name": "Pavel Píša",
+                    "biography": "He studied cybernetics and robotics at [CTU](https://www.cvut.cz/en) [FEE](https://fel.cvut.cz/en), where he currently teaches and works on projects using GNU/Linux and other processor technologies. He participates in design of firmware and electronics of laboratory and medical devices and precise servo control at [PiKRON.com](http://pikron.com/) company. He provides consultations to more companies in the field as well.\r\n\r\n- projects positions: https://openhub.net/accounts/ppisa/positions\r\n- knowledge base for students, enthusiasts and professionals: https://gitlab.fel.cvut.cz/otrees/org/-/wikis/knowbase",
+                    "avatar": "https://talks.openalt.cz/media/avatars/Pavel_Pisa_ZtsYwZ8.jpg",
+                    "email": "ppisa@pikron.com"
+                }
+            ],
+            "title": "Začlenění real-time podpory do Linuxu ve zlatém balení",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "V září roku 2024 byla do hlavního vývojového stromu předaná Thomasem Gleixner poslední úprava  nutná pro povolení PREEMP_RT pro architektury x86, AArch64 a RISC-V. Předání Linusovi Torvaldsovi proběhlo na papírovém svitku ve zlatém balení na vrcholu věže Saturn Tower ve Vídni. I předchozí úpravy přinášely natolik užitečného pro nasazení jádra i mimo RT oblast, že Linus uznal komunitu kolem RT nasazení GNU/Linuxu za užitečnou a hodnou začlenění její práce. Přitom první setkání komunity se zájmem používat GNU/Linux v RT aplikacích proběhlo ve Vídni právě před 25 lety (Real Time Linux Workshop). Dalším kulatým jubileem je 20 let od představení možných řešení nasazení Linuxu pro real-time na konferenci Real Time Linux Workshop na Lanzhou University v Číně. V tom roce byly první drobné úpravy (runtime locking correctness validator) začleněné do hlavního vývojového stromu. Do součané doby bylo pro zprovoznění RT do hlavního stromu jádra zasláno asi 10000 změn přímo týmem kolem RT vývoje a 5000 změn v navazujících ovladačích a subsystémech přidaných jejich správci v návaznosti na požadavky na opravy a další potřeby.\r\n\r\nV přednášce zkusím přiblížit historii vývoje, kterou jsem od začátku sledoval, a i zkušenosti s naším nasazením v reálných aplikacích a souvisejících testovacích systémech.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-03T10:00:00+01:00",
+                "end": "2024-11-03T10:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/3XTMDF/the-golden-commit_80SNPLu.jpg",
+            "resources": [
+                {
+                    "resource": "https://social.kernel.org/notice/AmBb9tDqmw7QG6B7Bo",
+                    "description": "The Golden Commit"
+                },
+                {
+                    "resource": "https://www.root.cz/clanky/gnu-linux-pro-rizeni-a-rychlost-jeho-odezvy/",
+                    "description": "GNU/Linux pro řízení a rychlost jeho odezvy (článek ROOT.cz 2016)"
+                },
+                {
+                    "resource": "https://www.root.cz/clanky/linux-pro-rizeni-minimalisticke-reseni-rizeni-stejnosmerneho-motoru/",
+                    "description": "Praktická část o využití pro řízení motorku z Raspberry Pi (článek ROOT.cz 2016)"
+                }
+            ],
+            "answers": [],
+            "created": "2024-10-01T11:17:03.401734+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "JTD8JT",
+            "speakers": [
+                {
+                    "code": "YAM8MX",
+                    "name": "Josef Reidinger",
+                    "biography": "Na konferenci přijíždím od Hradce Králové. Před lety jsem vystudoval informatiku na Karlově univerzitě a ještě během studií jsem nastoupil do SUSE, kde celou dobu vyvíjím otevřený software.\r\nVětšinu me práce z posledních let je možné vidět na [githubu](https://github.com/jreidinger/).",
+                    "avatar": "https://talks.openalt.cz/media/avatars/20230618_133228_tGJb9lQ.jpg",
+                    "email": "josef.reidinger@gmail.com"
+                }
+            ],
+            "title": "Full Stack vývoj a opensource nástroje",
+            "submission_type": {
+                "cs": "Krátká přednáška",
+                "en": "Short talk"
+            },
+            "submission_type_id": 17,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Po dvou letech vývoje open source webového instalátoru bych se rád v této přednášce podělil co používáme pro vývoj a zkušenosti s těmito nástroji.\r\nPoužité technologie jsou DBus, http API backend v rustu a webový frontend v ReactJS.",
+            "description": null,
+            "duration": 25,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-03T15:00:00+01:00",
+                "end": "2024-11-03T15:25:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-03T15:34:24.690930+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "GQGCJB",
+            "speakers": [
+                {
+                    "code": "YAM8MX",
+                    "name": "Josef Reidinger",
+                    "biography": "Na konferenci přijíždím od Hradce Králové. Před lety jsem vystudoval informatiku na Karlově univerzitě a ještě během studií jsem nastoupil do SUSE, kde celou dobu vyvíjím otevřený software.\r\nVětšinu me práce z posledních let je možné vidět na [githubu](https://github.com/jreidinger/).",
+                    "avatar": "https://talks.openalt.cz/media/avatars/20230618_133228_tGJb9lQ.jpg",
+                    "email": "josef.reidinger@gmail.com"
+                }
+            ],
+            "title": "Agama: novy linuxový instalátor po roce",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "No loňském OpenAltu jsme si představili Agamu - nový linuxový instalátor s webovým rozhraní, CLI i automatickým během. Přednáška má za cíl ukázat co se za ten rok změnilo, kde se používá i jaké jsou plány do budoucna.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-03T13:00:00+01:00",
+                "end": "2024-11-03T13:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-03T16:33:29.604013+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "DLCBSG",
+            "speakers": [
+                {
+                    "code": "FFVZUZ",
+                    "name": "Martin Hubáček",
+                    "biography": "",
+                    "avatar": null,
+                    "email": "hub.martin@gmail.com"
+                }
+            ],
+            "title": "Jak používáme embedded Zephyr RTOS v HARDWARIO",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "IoT a Hnutí tvůrců"
+            },
+            "track_id": 17,
+            "state": "confirmed",
+            "abstract": "V HARDWARIO používáme Zephyr RTOS open-source operační systém na několika platformách NRF nebo STM32. Rád bych ukázal, jak nám pomáhá s vývojem, jak fungují boards, subsystémy, drivery..",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-03T13:00:00+01:00",
+                "end": "2024-11-03T13:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-04T11:56:13.012434+02:00",
+            "pending_state": null,
+            "notes": "tel: 603 197 065",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "XXAXHC",
+            "speakers": [
+                {
+                    "code": "8MATQU",
+                    "name": "Pavel Machek",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/PavelMachek_QhA4CuX.jpg",
+                    "email": "pavel@ucw.cz"
+                }
+            ],
+            "title": "Hry, rotoped a sen o létajícím kole",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "IoT a Hnutí tvůrců"
+            },
+            "track_id": 17,
+            "state": "confirmed",
+            "abstract": "Malé povídání o open-source hrách. Soustředím se na letecký simulátor FlightGear a na motivaci k pohybu. Podrobněji budu mluvit o rotopedu připojeném k počítači.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-03T15:00:00+01:00",
+                "end": "2024-11-03T15:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-04T15:23:15.098002+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "RHLNXL",
+            "speakers": [
+                {
+                    "code": "E8GPPD",
+                    "name": "Standa Láznička",
+                    "biography": "Už 9 let dělám vývoj software v open-source světě, v současnoti pro Microsoft, předtím pro Red Hat.\r\n\r\nPřevážně se šolichám s Kubernetes, certifikáty, OAuth2, OIDC a podobnými autentizačně/autorizačními mechanismy.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/01ec970f42607ad30fdc489168c6c7d2_XdglTVL.jpg",
+                    "email": "slaz@seznam.cz"
+                }
+            ],
+            "title": "Co je to ten Kubernetes?",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Kubernetes se řadí mezi výraznější a úspěšné open-source projekty posledního desetiletí a je oblíbenou platformou pro vývoj a nasazování aplikací. Co to ale dělá, a jak?\r\nSpolečně projdeme jednotlivé součásti Kubernetes, zjistíme, jaká je jejich funkce, ukážeme si, jak si s Kubernetes povídat a snad rozběhneme i pár kontejnerů.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-03T14:00:00+01:00",
+                "end": "2024-11-03T14:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-04T16:13:55.437613+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "LU9WNG",
+            "speakers": [
+                {
+                    "code": "S8MGHK",
+                    "name": "Ondřej Doležal",
+                    "biography": "Systémový administrátor v Redamp.io se zájmem o kyberbezpečnost, počítačové sítě, IoT a soukromí na internetu. Najdete mě na https://x.com/o_dolezal a https://linkedin.com/in/odolezal.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/OD_2024_ZtLNOLp.jpg",
+                    "email": "odolezal@odolezal.cz"
+                }
+            ],
+            "title": "Bezpečné DNS doma i na cestách",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Bezpečnost a soukromí"
+            },
+            "track_id": 19,
+            "state": "confirmed",
+            "abstract": "Systém DNS (Domain Name System) zajišťuje jednu ze základních služeb na internetu a to překlad doménových jmen na IP adresy. Pokud používáte internet, používáte i DNS.\r\n\r\nKromě legitimních domén, na kterých jsou běžné webové stránky, které chceme navštívit, existují i škodlivé domény. Ty typicky slouží jako vstupní brána pro nejrůznější internetové hrozby, nejčastěji phishing nebo malware. V ideálním případě se chceme připojením na tyto domény úplně vyhnout. K tomu slouží princip tzv. filtrování DNS dotazů, který funguje jako základní ochrana při procházení internetu, ať už na počítači doma nebo na mobilu kdekoliv jinde.\r\n\r\nV této přednášce se podíváme na to, jaké jsou praktické možnosti filtrování domén. Jestli raději zvolit řešení postavené na otevřeném systému ve vlastní režii a nebo tuto úlohu přenechat některé z nabízených služeb, ať už zdarma nebo za peníze. Popíšeme si vlastnosti a charakteristiky obou řešení a zaměříme se na hlavní přednosti i nedostatky, případně si nastíníme situace, kdy zvolit jaké řešení.\r\n\r\nA protože bezpečné DNS je i soukromé DNS, nebude opomenut ani tento aspekt. Rozebereme jak se bránit proti případnému odposlechnutí komunikace a jakou vybrat externí službu, která nezaznamenává naši internetovou stopu.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-03T11:00:00+01:00",
+                "end": "2024-11-03T11:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/LU9WNG/Designer_1VN8qgZ.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-06T22:12:12.725440+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "V9HNUQ",
+            "speakers": [
+                {
+                    "code": "7YXZNB",
+                    "name": "Jiří Konečný",
+                    "biography": "Red Hatter od 2015. Developer, dříve Team Lead nyní PO pro instalátor Anaconda, použitý pro instalaci Fedory, RHELu a CentOS a dalších.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/me_RjLYkcV.JPG",
+                    "email": "jiri.konec@pacse.eu"
+                }
+            ],
+            "title": "Strastiplná cesta nového Web UI interface pro Anacondu",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Již je to dávno, na IT poměry, když se objevila myšlenka pro vytvoření Webového interface pro Anacondu, instalátoru Fedory, RHELu, CentOS a dalších. Tato myšlenka je ambiciózní a stále vzniká a přetváří se za pomoci mnoha a mnoha lidí, kteří ji pomáhají posouvat stále kupředu. Ze začátku to byl pouze nápad, který byl možná spíše v žertu podoknut v kuchyňce, a nyní jsme po mnoha letech v situaci, kde se snažíme změnit přístup pro instalaci Fedory a dalších systémů.\r\nV této prezentaci bych Vás rád provedl cestou od vzniku této myšlenky až k tomu, co je dnes viditelné ve Fedora Workstation Rawhide, včetně četných problémů, které bylo po cestě nutné řešit. To vše z pohledu developera, team leada a PO.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-02T13:00:00+01:00",
+                "end": "2024-11-02T13:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-07T13:48:48.973882+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "ZFUXCQ",
+            "speakers": [
+                {
+                    "code": "D8P3MJ",
+                    "name": "esyr",
+                    "biography": "Jeden z vývojářů strace.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/avatar_VU7zSru.jpg",
+                    "email": "evgsyr@gmail.com"
+                }
+            ],
+            "title": "Současný strace",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Diagnostický a ladící software `strace` je hojně využíván jak mezi vývojáři, tak mezi uživateli systémů na základu Linuxu. Ačkoliv se do povědomí veřejnosti již dostal díky svým vybraným, základním funkcím, tedy sledování komunikace mezi procesy a linuxovým jádrem, jeho plný potenciál a nové možnosti stále nejsou zcela rozšířené.\r\nV této přednášce budou popsány funkce a možnosti současního `strace`, a demonstrovany různé druhy problémů, které tyto funkce pomáhají řešit.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-03T11:00:00+01:00",
+                "end": "2024-11-03T11:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/ZFUXCQ/strace_head_square_8dSMraL.png",
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-07T15:23:37.255045+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "AGJAQE",
+            "speakers": [
+                {
+                    "code": "RL7EUW",
+                    "name": "Luděk Šmíd",
+                    "biography": "Nadšenec do Open Source, domácí automatizace a Linuxu snad odjakživa.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/f485c130e0dc386c5366ffbbb3fe8e72_e6kqKOK.jpg",
+                    "email": "ludeksmid1@gmail.com"
+                }
+            ],
+            "title": "Godot Game Engine - jak na váš první projekt?",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Chcete vyvíjet hry pomocí open source enginu a nevíte kde začít? Duo otce a dcery vytvořilo hru Emma v Godot Game Engine a spolu vám představí vývojové prostředí a nasdílí své zkušenosti s tvorbou svého prvního projektu.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-03T13:00:00+01:00",
+                "end": "2024-11-03T13:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/AGJAQE/openalt_5YrUvDk.png",
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-07T21:53:44.178861+02:00",
+            "pending_state": null,
+            "notes": "Hra https://monikasmidova.itch.io/emma byla vytvořena jako pololetní projekt při studiu oboru GameArt na Střední škole umění a designu.\r\n\r\nV Godotu jsem vyvinul několik drobností do šuplíku, ale projekt Emma byl první, který jsme vydali.",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "DBGVTZ",
+            "speakers": [
+                {
+                    "code": "KC7MEF",
+                    "name": "Ondřej Caletka",
+                    "biography": "Ondřej Caletka vystudoval elektrotechnickou fakultu ČVUT, obor Telekomunikační technika a po více než osmi letech ve sdružení CESNET, provozujícím národní síť vědy a výzkumu, nyní pracuje ve vzdělávacím oddělení RIPE NCC, asociace koordinující internetové sítě v Evropě, na Blízkém východě a v severní Asii.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/7a88779c2a79bc643a59b1ea9a641a94_zcK98Kq.jpg",
+                    "email": "ondrej.caletka@gmail.com"
+                }
+            ],
+            "title": "Pohled do zákulisí sítě pro RIPE Meeting",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "Dvakrát ročně pořádá RIPE NCC setkání komunity internetových sítí na různých místech po celé Evropě. Na této akci provozujeme vlastní Wi-Fi síť pro návštěvníky. Po mnoha letech jsme dokonvergovali do stavu, kdy naprostá většina aktivních prvků běží na Linuxu a open source softwaru a síťový hardware je používán pouze na linkové vrstvě. V přednášce se podělím o zkušenosti s provozováním takové sítě se zaměřením na tipy, které jsou přenositelné i na jiné typy sítí.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-02T16:00:00+01:00",
+                "end": "2024-11-02T16:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-08T09:14:12.695581+02:00",
+            "pending_state": null,
+            "notes": "Na OpenAlt se dostanu až v sobotu odpoledne.",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "R9HNAD",
+            "speakers": [
+                {
+                    "code": "HTMYVR",
+                    "name": "Pavel Šimerda",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/HTMYVR_t6Fi9xz.jpeg",
+                    "email": "pavel@simerda.eu"
+                },
+                {
+                    "code": "VQT3DW",
+                    "name": "Sára Šimerdová",
+                    "biography": null,
+                    "avatar": null,
+                    "email": "kvetinkakocourkova@gmail.com"
+                }
+            ],
+            "title": "Na programování nemusíme umět číst a psát",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Vzdělávání"
+            },
+            "track_id": 18,
+            "state": "confirmed",
+            "abstract": "Programování zní spoustě lidem jako velká věda hraničící se školou čar a kouzel. Proto je nejlepší začít s mladšími dětmi, které tomu ještě nerozumí, a nechápou, že jim na tom má něco nejít. Na dnešní době mě nejvíc baví to, že děti mají k dispozici takové nástroje, že mě ke svojí práci skoro nepotřebují. Frontální výuka je u mladších dětí zbytečná až nepotřebná. Mnohem více času a energie věnuju měkkým dovednostem než vysvětlování technické stránky činnosti. Na tu si děti přicházejí samy, a to už od těch nejmladších, co ještě neumějí číst a psát.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-02T16:00:00+01:00",
+                "end": "2024-11-02T16:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/R9HNAD/20231230_130119_GXwGlhR.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-12T14:52:51.605033+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "ZKY3GU",
+            "speakers": [
+                {
+                    "code": "MK7LSL",
+                    "name": "Petr Štěpánek",
+                    "biography": "As a CTO and co-founder of Macromo, I led bioinformaticians and developers in building an AI to integrate blood tests, wearables, and DNA data to help you add 10 years to your active lifespan. \r\n\r\nPreviously, I founded Next Zone, a hardware startup accelerator in Prague, which supports hundreds of young founders and students, providing them with mentoring and professional equipment.\r\n\r\nMy journey began in high school with the co-founding of an electric skateboard startup. Starting in a garage, we scaled to serve customers across Europe, during which I lived in Shenzhen to build our supply chain and prototype faster. Additionally, I co-founded Undout, a startup aimed at improving sleep habits with an innovative alarm clock that we brought to the market through crowdfunding.",
+                    "avatar": null,
+                    "email": "info@petrstepanek.com"
+                }
+            ],
+            "title": "From Skateboards to Genomics and More",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Petr Štěpánek will be sharing his story, which starts with his first electric skateboards startup, his trip to China, then continues with founding a hardware incubator Next Zone, and then research in genomics and his latest startup Macromo.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-02T11:00:00+01:00",
+                "end": "2024-11-02T11:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/ZKY3GU/macromo-nasdaq_mdw14eo.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-12T17:03:10.510030+02:00",
+            "pending_state": null,
+            "notes": "Information about the story and projects briefly mentioned here: https://www.petrstepanek.com/",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "BEWHHL",
+            "speakers": [
+                {
+                    "code": "QLW99P",
+                    "name": "Petr Šic",
+                    "biography": "Student SSPŠ, který se už 6 let pohybuje v oblasti modelových raket. Zaměřuje se na jejich konstrukci, design a simulaci. V současnosti s kolegy pracuje na vývoji suborbitálních raket pro široké spektrum aplikací v rámci projektu SoRC.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/profilepictureface-removebg-preview1_55ow60j.png",
+                    "email": "sic.peta@gmail.com"
+                },
+                {
+                    "code": "WELZKQ",
+                    "name": "Ota Železný",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/WELZKQ_ertaW5q.jpeg",
+                    "email": "ota.zelezny@gmail.com"
+                },
+                {
+                    "code": "UHWZFV",
+                    "name": "Jan Ledvina",
+                    "biography": "Student SSPŠ.\r\n\r\nZajímám se o vše okolo výpočetních technologií, od softwaru a programování až po robotiku a PCB design.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/jan_ledvina_O1tClc1.png",
+                    "email": "honzaled@proton.me"
+                }
+            ],
+            "title": "Vývoj studentské suborbitální rakety",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Vývoj studentské suborbitální rakety přináší řadu technických, organizačních a finančních výzev. V této přednášce se zaměříme na klíčové problémy, jako jsou simulace a design rakety, integrace elektroniky se softwarem pro řízení letu a sběru dat.\r\nNásledně se zaměříme na fungování týmu, splnění bezpečnostních požadavků a jejich testování, a také nahlédneme do vývoje vlastního raketového motoru. \r\nPřednáška je určena pro studenty a nadšence do raketové techniky, ale i pro úplné laiky, kteří chtějí nahlédnout do zákulisí vývoje suborbitální rakety.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-02T10:00:00+01:00",
+                "end": "2024-11-02T10:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-12T23:52:59.591097+02:00",
+            "pending_state": null,
+            "notes": "přednáška bude mít 3 přednášející, kteří se během průběhu vystřídají, aby mluvili o věcech na které se specializují a dali tak posluchačům co nejpřesnější poznatky",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "9YSQPX",
+            "speakers": [
+                {
+                    "code": "GUSUXC",
+                    "name": "Václav Knapp",
+                    "biography": "Jsem členem několika výzkumných týmů v oblasti AI. \r\nNa ČVUT CIIRC, kde se specializuje na počítačové vidění a robotiku. Současně působí v Ústavu teorie informace a automatizace AV ČR, kde se věnuje výzkumu v oblasti zpracování obrazu a geoinformatiky ve spolupráci s Geoinformatickým ústavem Univerzity Karlovi. \r\n\r\nMým hlavním zaměřením je výzkum na UC Berkeley v rámci Berkeley AI Research (BAIR) pod vedením postdoktoranda Tylera Bonnena v laboratořích Alexeje Efrose a Jitendry Malika. Kde zaměřuji na propojení a zkoumání neurovědy a umělé inteligence. \r\n\r\nDříve jsem spolupracoval (občasně vypomáhám i dnes) s Fyzikální laboratoří na Univerzitě Palackého, kde jsem. programoval řídící systémy pro kontrolu iontových kvantových bitů v iontových pastech, v rámci výzkumu kvantových počítačů.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/IMG_5241_wzdrQBL.jpeg",
+                    "email": "vasikknapp@gmail.com"
+                }
+            ],
+            "title": "Historie a současnost výzkumu umělé inteligence",
+            "submission_type": {
+                "cs": "Krátká přednáška",
+                "en": "Short talk"
+            },
+            "submission_type_id": 17,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Společně se podíváme na vývoj umělé inteligence, od jejích historických počátků až po současné klíčové algoritmy a principy. Závěrem se zaměříme na nejnovější výzkumy a diskuse týkající se hranic vědomí a budoucího směřování AI.",
+            "description": null,
+            "duration": 25,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-02T13:00:00+01:00",
+                "end": "2024-11-02T13:25:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-13T19:10:23.252700+02:00",
+            "pending_state": null,
+            "notes": "Přednáška o historii výzkumu.\r\nPředstavení základních algoritmů (konvoluce, transformers, atd.)\r\n\r\nNejnovější výzkumy v computer vision a NLP.",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "HWUXYZ",
+            "speakers": [
+                {
+                    "code": "NA83ER",
+                    "name": "Anna Jungmannová",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/signal-2024-10-06-185723_004_ca7Ubxx.jpeg",
+                    "email": "annajungmannova@icloud.com"
+                }
+            ],
+            "title": "Vrstevnické vyučování kybernetické bezpečnosti",
+            "submission_type": {
+                "cs": "Lightning talk",
+                "en": "Lightning talk"
+            },
+            "submission_type_id": 18,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Jak zajistit, aby výuka kybernetické bezpečnosti studenty nejen zaujala, ale také jim poskytla praktické dovednosti, které mohou ihned využít? Co kdybych vám řekla, že studenti jsou schopni učit své vrstevníky a tím obohatit celý vzdělávací proces? Vrstevnické vyučování podporuje aktivní zapojení studentů, umožňuje efektivnější sdílení znalostí a posiluje vzájemnou spolupráci",
+            "description": null,
+            "duration": 10,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-02T11:00:00+01:00",
+                "end": "2024-11-02T11:10:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/HWUXYZ/6_89MyQEl.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-13T20:54:46.355748+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "8LLHLJ",
+            "speakers": [
+                {
+                    "code": "93S9KR",
+                    "name": "Michal Ševčík",
+                    "biography": "Michal Ševčík je student Gymnázia Karviná, působí na osvětovém webu Co nevíte o škole (coneviteoskole.cz), je spoluautorem Badatelského zápisníku (TakTik), knihy o formativním pojetí výuky (vyjde v lednu 2024) a mnoha článků v časopisech a sbornících pro učitele. Má zkušenosti s doučováním i výukou v tandemu s učiteli. Je aktivní ve vědě, působil či působí jako stážista na univerzitách i akademických pracovištích. Mezi jeho zaměření patří analytická chemie a didaktika chemie. Je dlouhodobým dobrovolníkem v sociálních službách. Za své činnosti obdržel různá ocenění (Moravskoslezský kraj - žáci SŠ, město Karviná - osobnosti sociální práce, Středoškolák roku - TOP100).",
+                    "avatar": "https://talks.openalt.cz/media/avatars/350133005_6268786159869403_1150582826611696251_n_PLmGBhu.jpg",
+                    "email": "26x_sevcik.michal@gym-karvina.cz"
+                }
+            ],
+            "title": "Nové přístupy ke vzdělávání: jsou opravdu nové?",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Vzdělávání"
+            },
+            "track_id": 18,
+            "state": "confirmed",
+            "abstract": "Přednáška se zaobírá novými přístupy ke vzdělávání a učení, zejména problematikou formativního hodnocení, dobrovolných domácích úkolů, respektující komunikace a projektového vyučování. Většinou je zvykem považovat výše zmíněné za inovace a novoty ve vzdělávání. Na přednášce se dozvíte nejen to nejdůležitější z oblasti vzdělávacích trendů, ale zároveň společně podnikneme historický exkurs a podíváme se na historické prameny, které strčí do kapsy i dnešní snahy o progresivní a alternativní vzdělávání. Pedagogičtí inovátoři a reformátoři tady totiž byli vždy a jejich myšlenky jsou si velmi podobné. Je na čase se pořádně zamyslet a jako společnost začít uvažovat o změně paradigmatu vzdělávání!",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-02T16:00:00+01:00",
+                "end": "2024-11-02T16:45:00+01:00"
+            },
+            "image": null,
+            "resources": [
+                {
+                    "resource": "https://www.coneviteoskole.cz/",
+                    "description": "Osvětový web Co nevíte o škole"
+                }
+            ],
+            "answers": [],
+            "created": "2024-10-14T13:33:20.291110+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "NKKMQN",
+            "speakers": [
+                {
+                    "code": "B3PCGN",
+                    "name": "Jiří Eischmann",
+                    "biography": "Linuxu se věnuje 20 let. Je dlouholetým přispěvatelem do GNOME a Fedory a aktuálně pracuje jako manažer týmu, který se věnuje desktopovým aplikacím v Red Hatu. Více na eischmann.cz.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/542c139f628bf2ad142d98a9117fdc45_WKOAtWD.jpg",
+                    "email": "jiri@eischmann.cz"
+                }
+            ],
+            "title": "Nerozbitný Linux pro celou rodinu",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřený a svobodný software"
+            },
+            "track_id": 16,
+            "state": "confirmed",
+            "abstract": "20 let spravuji linuxový desktop pro sebe a lidi ve svém okolí. V přednášce se podělím o řešení a přístupy, ke kterým jsem se za ta léta dopracoval, abych co nejvíce ulehčil život sobě a lidem, kterým počítače spravuji. Budu se věnovat aktualizacím a upgradům systému, distribuci aplikací, vzdálené správě, migraci dat atd.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-02T15:00:00+01:00",
+                "end": "2024-11-02T15:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-16T16:51:11.560851+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "VHBSZW",
+            "speakers": [
+                {
+                    "code": "WLMKDD",
+                    "name": "Adam Procio",
+                    "biography": "adamprocio.cz/pages/about-me",
+                    "avatar": null,
+                    "email": "adam.procio@gmail.com"
+                }
+            ],
+            "title": "Linux v tvojí ledničce - YoctoProject a OE",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "IoT a Hnutí tvůrců"
+            },
+            "track_id": 17,
+            "state": "confirmed",
+            "abstract": "Pokusím se přiblížit framework, který je dnes již industry standard ve vývoji Linux systémů (nejen) pro embedded zařízení.\r\n\r\nPříklady dotazů, které přednáška zodpoví:\r\n* Co to je?\r\n* Proč to je?\r\n* Jak to funguje?\r\n* Jak se to používá?\r\n\r\nNa co nebudu schopen odpovědět:\r\n* Vyplatí se mi to použít?\r\n* Jak se YP/OE liší od Y?\r\n* Měl bych si koupit motorku?",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-02T15:00:00+01:00",
+                "end": "2024-11-02T15:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-17T14:19:58.304856+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
             "code": "PJENXK",
             "speakers": [
                 {
@@ -2267,6 +2075,55 @@
             "favourite_count": 0
         },
         {
+            "code": "9QKADM",
+            "speakers": [
+                {
+                    "code": "RHYGEQ",
+                    "name": "Mária Šviriková",
+                    "biography": "",
+                    "avatar": null,
+                    "email": "msviriko@redhat.com"
+                }
+            ],
+            "title": "Ako sa (ne)rozprávať s používateľmi",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Vzdělávání"
+            },
+            "track_id": 18,
+            "state": "confirmed",
+            "abstract": "Bude doplneno",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-02T14:00:00+01:00",
+                "end": "2024-11-02T14:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-18T13:24:48.023762+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
             "code": "HXNPUM",
             "speakers": [
                 {
@@ -2311,6 +2168,458 @@
             "pending_state": null,
             "notes": "Digitalizace stavebního řízení (DSŘ) je velká téma. Pojďme se podrobně podívat jak to probíhalo. Přednášející byl náměstkem vícepremiera pro digitalizaci, ač nebyl přímo v realizačním týmu, tak u mnohé věci má z první ruky. Dozvíte se například komu se šláplo na kuří oko, či kde skončily zdrojové kódy, které vlastní stát.",
             "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "3BPTU9",
+            "speakers": [
+                {
+                    "code": "RXAGL9",
+                    "name": "Ondřej Profant",
+                    "biography": "Ondřej Profant byl náměstkem ministra na Úřadu vlády. Jako jeden z autorů Zákona o právu na digitální služby se nyní zabývá jeho implementací. Předchozí zkušenost má ze zastupitelstva Hl. m. Prahy a z Poslanecké sněmovny.\r\n\r\nJe jedním ze zakládajících členů Pirátů, během uplynulých 15 let se tak podílel na formování velké části stranických idejí, programů i mnohých legislativních návrhů. A to hlavně v oblasti IT a digitalizace veřejné správy.\r\n\r\nPoužívá Fedoru.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/abb820-16cd4b7e3af8e60c3b05f031e167be72aa3119f4b606000fbc9641ab1f23c605_X8l6nLg.jpg",
+                    "email": "ondrej.profant@gmail.com"
+                }
+            ],
+            "title": "Kam se posunul egovernment za uplynulé 3 roky?",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřená společnost, komunity a data"
+            },
+            "track_id": 20,
+            "state": "confirmed",
+            "abstract": "Uplynulé 3 roky měla Česká republika vícepremiéra pro digitalizaci. Kam jsme se posunuli a co důležitého vzniklo? Projdeme si hlavní úspěchy, chybky i věci v kterých by bylo záhodno pokračovat.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 19,
+                "room": {
+                    "cs": "D0207",
+                    "en": "D0207"
+                },
+                "start": "2024-11-02T13:00:00+01:00",
+                "end": "2024-11-02T13:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-18T13:51:31.077089+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "AZDQQP",
+            "speakers": [
+                {
+                    "code": "V7FLDK",
+                    "name": "Marcel Kolaja",
+                    "biography": "Marcel Kolaja je aktivista za lidská práva v digitálním věku a celoživotní fanoušek svobodných technologií. V letech 2019--2024 působil jako poslanec Evropského parlamentu, ve kterém zastával i funkce místopředsedy a kvestora. V Evropském parlamentu působil kromě předsednictva také ve výboru pro vnitřní trh a ochranu spotřebitelů (IMCO), ve výboru pro kulturu a vzdělávání (CULT), ve zvláštním výboru pro umělou inteligenci v digitálním věku (AIDA) a ve výboru k vyšetření použití spyware Pegasus a dalších. Pracoval na celé řadě legislativních aktů spojených s fungováním společnosti v digitálním věku,\r\nvčetně aktu o digitálních trzích, ve kterém navrhl a prosadil povinnost pro digitální giganty nabídnout interoperabilitu s jejich chatovacími platformami. V minulosti zastával různé pozice v oboru informačních technologií od systémového administrátora po technického produktového manažera.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/avatar6-2448x2448_0joVeyK.jpeg",
+                    "email": "marcel+openalt_cz@kolaja.eu"
+                }
+            ],
+            "title": "Jsou technologie přeregulované nebo podregulované?",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Otevřená společnost, komunity a data"
+            },
+            "track_id": 20,
+            "state": "confirmed",
+            "abstract": "Akt o digitálních službách (DSA), akt o digitálních trzích (DMA), akt o umělé inteligenci (AIA), akt o kybernetické odolnosti (CRA), směrnice o odpovědnosti za vadné výrobky (PLD),... To jsou jen některé z evropských legislativních aktů přijatých v uplynulém funkčním období. Jaké kladou technologickým firmám povinnosti? Je to moc? Nebo naopak málo? Co bude dál? Budou snad následovat ještě další? Jak je to s povinným šmírováním v soukromých konverzacích (Chat Control)? A kdy už konečně tohle všechno skončí? V přednášce se dozvíte odpovědi na všechny tyto otázky a mnohem víc.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 17,
+                "room": {
+                    "cs": "D105",
+                    "en": "D105"
+                },
+                "start": "2024-11-03T10:00:00+01:00",
+                "end": "2024-11-03T10:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-18T21:05:13.704090+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "LNEQAA",
+            "speakers": [
+                {
+                    "code": "S7WFFM",
+                    "name": "David Beck",
+                    "biography": "",
+                    "avatar": "https://talks.openalt.cz/media/avatars/mic.square.fill_900_ME9dEth.png",
+                    "email": "davidbeckcz@gmail.com"
+                }
+            ],
+            "title": "Jak jsem si naprogramoval vlastní hlasovou asistentku pro iPhone a Apple Watch",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "IoT a Hnutí tvůrců"
+            },
+            "track_id": 17,
+            "state": "confirmed",
+            "abstract": "Siri měla premiéru před 13 roky, když vyšel iPhone 4S a psal se rok 2011. Siri mluví mnoha jazyka a přes každoroční titulky „Siri se učí česky\" máme bohužel smůlu. A zatím nic nenaznačuje, že by se to mělo změnit.\r\n\r\nChtěl jsem iPhone ovládat hlasem a česky! Jak jinak napsat do nákupního seznamu hořické trubičky a solamyl. Anebo jak se nechat navigovat do Pece pod Sněžkou?\r\n\r\nA také jsem chtěl chytrou domácnost ovládat česky na hodinkách Apple Watch - zapni lampičku...  5 let pracuji na aplikaci Hello Emma, hlasové asistentce, která rozumí česky, slovensky, polsky.\r\n\r\nV systému iOS nemůžete nastavit budík nebo minutku. Vytočení čísla nebo odeslání SMS vyžaduje potvrzení na obrazovce, ale já jsem to chtěl „bezdotykové\".\r\n\r\nJako programátor nemůžete na Apple Watch využit hlasovou syntézu - vaše aplikace nemůže na hodinkách mluvit. A  nemůžete ukládat záznamy do kalendáře a připomínek - funkce Save prostě na Watch není. Jenomže já jsem chtěl asistentku, co bude mluvit a co bude zapisovat nákupní seznam.\r\n\r\nJak se nechá systém obalamutit, aby Emma fungovala přes CarPlay.\r\n\r\nJak obejít omezení operačního systému a vytvořit si vlastní hlasovou asistentku pro iPhone se dozvíte se na mojí přednášce.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 15,
+                "room": {
+                    "cs": "A112",
+                    "en": "A112"
+                },
+                "start": "2024-11-03T11:00:00+01:00",
+                "end": "2024-11-03T11:45:00+01:00"
+            },
+            "image": "https://talks.openalt.cz/media/openalt-2024/submissions/LNEQAA/Hello_Emma_cover_picture_CZ_78D1YUg.jpg",
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-19T16:35:29.652171+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "WFF7AR",
+            "speakers": [
+                {
+                    "code": "AZUS8N",
+                    "name": "Ota Michálek",
+                    "biography": null,
+                    "avatar": null,
+                    "email": "tajemnik@czechrockets.com"
+                }
+            ],
+            "title": "Czech Rocket Society & Czech Rocket Challenge",
+            "submission_type": {
+                "cs": "Lightning talk",
+                "en": "Lightning talk"
+            },
+            "submission_type_id": 18,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Czech Rocket Society je samostatný spolek pro studenty vysokých škol, které baví a zajímá kosmonautika a rakety. Chceme dát příležitost uplatnit své studium v praxi, ale zároveň se rozvíjet samostatně, zkoušet a experimentovat. Zároveň chceme k raketám a kosmonautice přistupovat komplexně a i proto se například zajímáme o legalitu kolem raket, účastníme se vzdělávacích akcí a sami organizujeme soutěž Czech Rocket Challenge pro studenty. Czech Rocket Challenge je týmová soutež určená pro středo- a vysokoškolské studenty. V rámci této výzvy týmy studentů* navrhují, testují, staví a nakonec odpalují svoji raketu. Nehodnotí se jen dosažená výška, ale i pokročilost a komplexnost rakety, propracovanost reportu apod.",
+            "description": null,
+            "duration": 10,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-02T11:20:00+01:00",
+                "end": "2024-11-02T11:30:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-20T12:06:01.856711+02:00",
+            "pending_state": null,
+            "notes": "Budu rád za zmínění odkazu na Linktree, nebo alespoň IG:\r\nhttps://linktr.ee/czechrockets?utm_source=linktree_profile_share&ltsid=5be62df2-7a89-4847-80a1-7fc0fafebbb1\r\n\r\nhttps://www.instagram.com/czechrockets/",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "LPFW8E",
+            "speakers": [
+                {
+                    "code": "FKER8S",
+                    "name": "Anna  Bučinská",
+                    "biography": "Jsem studentka SSPŠ. Baví mě robotika a práce s AI. Dříve jsem učila na základní škole, nicméně nyní se věnuji vývoji humanoidního robota.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/portrait_tUfuJ1I.jpg",
+                    "email": "bucinska.an.2022@ssps.cz"
+                }
+            ],
+            "title": "Vývoj studentského humanoida",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Náš projekt se zabývá stavbou humanoidního robota s informacemi o naší škole. Během prezentace se dozvíte jakou roli hraje AI, s jakými výzvami jsme se doposud setkali, naše vize do budoucna a jakým způsobem jich chceme dosáhnout.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-02T10:00:00+01:00",
+                "end": "2024-11-02T10:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-21T12:36:51.491564+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "FTM883",
+            "speakers": [
+                {
+                    "code": "NKGXET",
+                    "name": "Alexandr Waage",
+                    "biography": "",
+                    "avatar": null,
+                    "email": "alexandr@waage.cz"
+                }
+            ],
+            "title": "Správa ICT na školách v rukou studentů",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Přednáška o správě ICT na školách, využití síly ve vlastních řadách nebo outsourcing.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-02T15:00:00+01:00",
+                "end": "2024-11-02T15:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-22T09:12:54.001643+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "97JL78",
+            "speakers": [
+                {
+                    "code": "DQBV7V",
+                    "name": "Petr Nosek",
+                    "biography": "Vystudoval jsem VUT FIT. Mám vášeň pro Linux, IoT a energetiku. Baví mě automatizace procesů – rád zajišťuji, aby se věci děly samy a zároveň sbírám data pro další analýzu a zlepšení. Mým dlouhodobým snem je mít opravdu hezkou a funkční chytrou domácnost a už jsem tomu velmi blízko.",
+                    "avatar": null,
+                    "email": "info@petrnosek.cz"
+                },
+                {
+                    "code": "SHDAZG",
+                    "name": "Jiří Husák",
+                    "biography": "Vystudoval jsem VUT FIT v oboru vestavěných systémů a přes 9 let se tomuto oboru profesně věnuji. Zabývám se programováním mikrokontrolérů a aplikací pro linux zejména v C/C++. Kromě jedniček a nul se věnuji elektronice a navrhuji desky plošných spojů. Koníčkem je pro mě rekonstrukce rodinného domu a 3D tisk.",
+                    "avatar": null,
+                    "email": "info@majordomus.tech"
+                }
+            ],
+            "title": "Majordomus - open source hardware a software pro chytrou domácnost",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "IoT a Hnutí tvůrců"
+            },
+            "track_id": 17,
+            "state": "confirmed",
+            "abstract": "I v roce 2024 stále čelíme zásadním výzvám při implementaci chytrých domácností. Proč je rozšíření těchto technologií tak pomalé, že uživatelé váhají, zda se do nich vůbec pustit?\r\n\r\n**Problémy současných chytrých domácností:**\r\n\r\n* **Uzavřenost řešení:** Mnoho systémů je natolik uzavřených, že zákazníci nevědí, zda hardware bude funkční za pět let. Neexistuje záruka dlouhodobé podpory a uživatelé se stávají závislí na výrobci a jeho specifických komponentech. Inteligence systému je často řešena až na úrovni koncového zařízení, což zvyšuje riziko chyb a slabou bezpečnost. Cena komponent navíc výrazně prodražuje elektroinstalace.\r\n\r\n* **Nekompatibilita hardwaru:** Při kombinaci zařízení od různých výrobců často chybí dokumentace a podpora. Pokusy o jejich propojení jsou **časově náročné** a často vedou k **vizuálním i funkčním nedostatkům**.\r\n\r\n* **Chybějící dostupný hardware:** Nadšenci si mohou vytvořit chytré senzory za zlomek ceny, ale často jim chybí kompaktní a estetické řešení. Výsledkem je funkční, ale nevzhledné zařízení, které nepasuje do moderní domácnosti.\r\n\r\nPotenciál chytrých domácností je obrovský – od predikce spotřeby energií až po automatizaci každodenních činností. Dokud ale chybí esteticky navržený a kompatibilní hardware, zůstávají tyto možnosti nevyužité.\r\n\r\n**Řešení s Majordomem:**\r\n\r\n* Majordomus nabízí otevřený a škálovatelný přístup k chytrým domácnostem. Jeho klíčovou výhodou je **open source hardware**, který eliminuje obavy z uzavřených systémů. Uživatelé mohou hardware sami přizpůsobit a upravovat podle svých potřeb. Hardware je zároveň esteticky navržený a snadno se instaluje do běžných elektroinstalačních krabic. Firmware je možné aktualizovat, což zajišťuje jeho dlouhodobou použitelnost.\r\n\r\n* Navíc, Majordomus **podporuje \"hloupá\" koncová zařízení**, což snižuje náklady na elektroinstalaci a odstraňuje závislost na konkrétní značce zařízení.\r\n\r\n* Majordomus tak řeší zásadní problémy chytrých domácností – od otevřenosti přes estetiku až po kompatibilitu hardwaru. Díky stovkám hodin vývoje a přemýšlení přináší novou éru automatizace, kde mají uživatelé kontrolu a svobodu volby.\r\n\r\nSoučástí bude **živá ukázka hardware i software.**",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 15,
+                "room": {
+                    "cs": "A112",
+                    "en": "A112"
+                },
+                "start": "2024-11-03T10:00:00+01:00",
+                "end": "2024-11-03T10:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-23T07:15:10.326642+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": "",
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "EUUBRJ",
+            "speakers": [
+                {
+                    "code": "URRQFW",
+                    "name": "Ing. Pavel Šafl",
+                    "biography": "Podílím se na tom, abych školám pomáhal s přestupem na novou informatiku. Snažím se školám dodávat kvalitní informace, podklady a produkty pro výuku. A to tak aby měli vše na jednom místě a nemuseli utrácet svůj drahocenný čas, který mohou využít pro lepší vzdělávání dětí. \r\n\r\nOMG Robotics nabízí školám jednoduché vybavení na obsluhu, aby nedocházelo k zbytečným problémům při výuce a učí školy využívat 3D tiskárny pro výrobu levných, jednoduchých a funkčních výukových pomůcek. \r\n\r\nPedagogičtí pracovníci se v dnešní době potýkají s nedostatečnou informovaností a to vyvolává strach z nových technologií. Tento strach jim poté brání pochopit význam nových technologií pro výuku. Tento strach se snažíme u pedagogů odbourat a ukázat jim jaký přinos a usnadnění výuky pro ně můžou technologie mít. \r\n\r\nhttps://omgrobotics.com",
+                    "avatar": "https://talks.openalt.cz/media/avatars/pavel_safl_C7IcGUt.png",
+                    "email": "pavel.safl@omgrobotics.com"
+                }
+            ],
+            "title": "Propojování mezipředmětových vztahů na Základních školách",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "en": "Vzdělávání"
+            },
+            "track_id": 18,
+            "state": "confirmed",
+            "abstract": "Současná podoba výuky na základních školách nabízí velký prostor pro propojování různých předmětů prostřednictvím praktických technologií. Tato přednáška se zaměří na to, jak efektivně integrovat technologie jako micro:bit, 3D tisk a umělou inteligenci do běžné výuky, čímž lze posílit zájem dětí o technické obory, kreativitu a řešení problémů. Ukážeme, jak DIY přístup a open source nástroje mohou podporovat dovednosti a šikovnost dětí, a jak mohou učitelé tyto nástroje snadno využít při propojování různých předmětů. Přednáška také nabídne praktické tipy a ukázky, jakým způsobem mohou školy zlepšit výuku pomocí těchto technologií a jak mohou vytvořit prostředí, které podporuje tvořivost, kritické myšlení a spolupráci.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 16,
+                "room": {
+                    "cs": "A113",
+                    "en": "A113"
+                },
+                "start": "2024-11-03T11:00:00+01:00",
+                "end": "2024-11-03T11:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-23T10:18:32.048538+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": null,
+            "tags": [],
+            "tag_ids": [],
+            "favourite_count": 0
+        },
+        {
+            "code": "UELMS7",
+            "speakers": [
+                {
+                    "code": "AGH9ZQ",
+                    "name": "Ing. Radko Sáblík",
+                    "biography": "Ing. Radko Sáblík je ředitel Smíchovské střední průmyslové školy a gymnázia, druhé nejstarší průmyslové školy v Praze. Pod jeho vedením škola klade důraz na moderní výuku a projektovou výuku, která aktivně zapojuje studenty do reálných projektů. Jeho přístup k vzdělávání zahrnuje individuální studijní plány pro sportovce či aktivní studenty a kombinované studium, které podporuje samostatnost studentů. Díky jeho inovativním metodám dosahuje škola vysoké úspěšnosti při maturitách a více než 95 % studentů pokračuje na vysoké školy.",
+                    "avatar": "https://talks.openalt.cz/media/avatars/prostor-724-5_2BvO9CV.jpg",
+                    "email": "vosahlo.pe.2023@skola.ssps.cz"
+                }
+            ],
+            "title": "Kombinovaná výuka",
+            "submission_type": {
+                "cs": "Přednáška",
+                "en": "Talk"
+            },
+            "submission_type_id": 13,
+            "track": {
+                "cs": "Studentská sekce",
+                "en": "Student track"
+            },
+            "track_id": 23,
+            "state": "confirmed",
+            "abstract": "Ing. Radko Sáblík, ředitel Smíchovské střední průmyslové školy a gymnázia, chystá přednášku o kombinovaném vzdělávání, kde zdůrazní efektivní přístup k učení, který spojuje čtyři dny prezenční výuky s jedním dnem samostudia. Cílem je naučit studenty organizovat si čas, stanovit priority a aktivně se zapojit do svého vzdělávání.",
+            "description": null,
+            "duration": 45,
+            "slot_count": 1,
+            "do_not_record": false,
+            "is_featured": false,
+            "content_locale": "cs",
+            "slot": {
+                "room_id": 18,
+                "room": {
+                    "cs": "D0206",
+                    "en": "D0206"
+                },
+                "start": "2024-11-02T14:00:00+01:00",
+                "end": "2024-11-02T14:45:00+01:00"
+            },
+            "image": null,
+            "resources": [],
+            "answers": [],
+            "created": "2024-10-24T12:03:24.370530+02:00",
+            "pending_state": null,
+            "notes": "",
+            "internal_notes": "",
             "tags": [],
             "tag_ids": [],
             "favourite_count": 0
