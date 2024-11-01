@@ -101,6 +101,10 @@ class ScheduleApp:
                 rowspan = 60 // self.TIMESLOT
                 next_hour = (current_time + timedelta(minutes=60)).strftime("%H:%M")
                 html += f'<td rowspan="{rowspan}">{time_str} &mdash; {next_hour} </td>'
+            elif current_time == min_time:
+                rowspan = (60 - current_time.minute ) // self.TIMESLOT
+                next_hour = (current_time + timedelta(minutes=60)).strftime("%H:%M")
+                html += f'<td rowspan="{rowspan}">{time_str} &mdash; {next_hour} </td>'
 
 #            if currnet_time 
 #            if current_time in times:
